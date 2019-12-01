@@ -119,7 +119,7 @@ void Selective_repeat::recv_file(int sock_fd, struct addrinfo *address, string f
     while(true){
         pk = new data_packet;
         memset(pk,0,sizeof(data_packet));
-        bool rv = rcvUDP(sock_fd,pk,addr, true,10, false);
+        bool rv = rcvUDP(sock_fd,pk,addr, true,20, false);
         printf("base: %d\n",base);
         if(!rv){
             ack_packet *ack = new ack_packet;

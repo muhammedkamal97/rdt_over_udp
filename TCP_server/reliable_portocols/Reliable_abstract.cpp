@@ -4,13 +4,15 @@
 
 #include "Reliable_abstract.h"
 
-Reliable_abstract::Reliable_abstract(float propability) {
+Reliable_abstract::Reliable_abstract(float propability,int seed) {
     this->propability = propability;
+    this->seed = seed;
+    srand(seed);
 }
 
 
 bool Reliable_abstract::propability_loss() {
-    srand(time(0));
+
     int random_num = (rand()%100)+1;
     if(random_num <= this->propability*100){
         return true;
@@ -33,7 +35,7 @@ bool Reliable_abstract::rcvUDP(int sock_fd, void *packet,struct addrinfo* addres
     if(block){
         struct timeval timeout;
         timeout.tv_sec = time_out;
-        timeout.tv_usec = 0;
+        timeout.tv_usec = 2000;
         setsockopt(sock_fd,SOL_SOCKET,SO_RCVTIMEO,(const char*)&timeout,sizeof(timeout));
     }
 

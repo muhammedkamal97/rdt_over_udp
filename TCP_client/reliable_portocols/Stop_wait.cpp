@@ -14,13 +14,18 @@ void Stop_wait::recv_file(int sock_fd,struct addrinfo* address,string fileName) 
     bool rv;
     do{
         memset(&packet,0,sizeof(data_packet));
-        rv = rcvUDP(sock_fd,&packet,address,true,30, false);
-        if(packet.seqno = seq && rv){
+        rv = rcvUDP(sock_fd,&packet,address,true,2, false);
+        if(packet.seqno == seq && rv){
             string data = packet.data;
             fwrite(data.c_str(),sizeof(char),data.size(),fp);
             ack_packet ack;
             ack.ackno = seq;
             seq++;
+            ack.len = sizeof(ack_packet);
+            sendUDP(sock_fd,address,&ack,ack.len);
+        }else if(packet.seqno < seq && rv){
+            ack_packet ack;
+            ack.ackno = seq;
             ack.len = sizeof(ack_packet);
             sendUDP(sock_fd,address,&ack,ack.len);
         }

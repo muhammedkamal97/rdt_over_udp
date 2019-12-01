@@ -25,7 +25,7 @@ struct sr_packet{
 
 class Selective_repeat: public Reliable_abstract {
 public:
-    Selective_repeat(float propapility): Reliable_abstract(propapility){};
+    Selective_repeat(float propapility,int seed): Reliable_abstract(propapility,seed){};
     void recv_file(int sock_fd,struct addrinfo* address,string fileName) override;
     void send_file(int sock_fd,struct addrinfo* address,string fileName) override;
 

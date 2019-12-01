@@ -25,7 +25,7 @@ using namespace std;
 
 class Reliable_abstract {
 public:
-    Reliable_abstract(float propability);
+    Reliable_abstract(float propability,int seed);
     virtual void recv_file(int sock_fd,struct addrinfo* address,string fileName) = 0;
     virtual void send_file(int sock_fd,struct addrinfo* address,string fileName) = 0;
     void sendUDP(int sock_fd,struct addrinfo* address, void* buffer,int len);

@@ -1,0 +1,7273 @@
+requested file name: test_file.txt
+sending 1773 packet
+send packet 0
+cwnd : 1
+received ack 0
+send packet 1
+cwnd : 2
+send packet 2
+cwnd : 2
+received ack 2
+packet 3 is lost
+cwnd : 4
+send packet 4
+cwnd : 4
+send packet 4
+send packet 1
+send packet 3
+received ack 1
+received ack 3
+send packet 5
+cwnd : 3
+packet 6 is lost
+cwnd : 3
+received ack 5
+send packet 7
+cwnd : 4
+received ack 7
+packet 8 is lost
+cwnd : 5
+send packet 4
+send packet 6
+send packet 8
+received ack 8
+packet 4 is lost
+send packet 6
+packet 4 is lost
+send packet 6
+received ack 6
+send packet 4
+received ack 4
+packet 9 is lost
+cwnd : 2
+send packet 10
+cwnd : 2
+received ack 10
+send packet 11
+cwnd : 3
+packet 9 is lost
+send packet 11
+received ack 11
+send packet 9
+received ack 9
+send packet 12
+cwnd : 2
+packet 13 is lost
+cwnd : 2
+received ack 12
+send packet 14
+cwnd : 3
+send packet 15
+cwnd : 3
+received ack 14
+packet 16 is lost
+received ack 15
+cwnd : 4
+packet 17 is lost
+cwnd : 5
+packet 17 is lost
+send packet 13
+send packet 16
+received ack 13
+received ack 16
+send packet 18
+cwnd : 3
+send packet 19
+cwnd : 3
+received ack 18
+send packet 20
+cwnd : 4
+packet 17 is lost
+send packet 19
+packet 20 is lost
+send packet 17
+received ack 17
+packet 19 is lost
+packet 20 is lost
+send packet 19
+send packet 20
+received ack 19
+received ack 20
+send packet 21
+cwnd : 2
+received ack 21
+packet 22 is lost
+cwnd : 3
+packet 23 is lost
+cwnd : 3
+send packet 24
+cwnd : 4
+packet 25 is lost
+cwnd : 4
+packet 22 is lost
+send packet 23
+received ack 23
+send packet 24
+received ack 24
+send packet 25
+received ack 25
+send packet 22
+received ack 22
+send packet 26
+cwnd : 2
+send packet 27
+cwnd : 2
+received ack 26
+send packet 28
+cwnd : 3
+send packet 29
+cwnd : 3
+received ack 27
+packet 30 is lost
+cwnd : 4
+packet 31 is lost
+cwnd : 4
+received ack 29
+send packet 32
+cwnd : 5
+received ack 32
+packet 33 is lost
+cwnd : 6
+send packet 28
+received ack 28
+packet 34 is lost
+cwnd : 6
+send packet 35
+cwnd : 6
+packet 30 is lost
+packet 31 is lost
+send packet 33
+packet 34 is lost
+send packet 35
+received ack 35
+send packet 30
+send packet 31
+packet 33 is lost
+received ack 30
+received ack 31
+send packet 34
+send packet 33
+send packet 34
+received ack 34
+send packet 33
+received ack 33
+send packet 36
+cwnd : 2
+received ack 37
+send packet 37
+cwnd : 2
+packet 38 is lost
+cwnd : 3
+send packet 36
+send packet 38
+received ack 38
+send packet 36
+received ack 36
+send packet 39
+cwnd : 2
+packet 40 is lost
+cwnd : 2
+received ack 39
+send packet 41
+cwnd : 3
+send packet 42
+cwnd : 3
+received ack 41
+send packet 43
+cwnd : 4
+received ack 42
+send packet 44
+cwnd : 5
+received ack 44
+send packet 45
+cwnd : 6
+send packet 40
+send packet 43
+send packet 45
+received ack 43
+received ack 45
+packet 40 is lost
+packet 40 is lost
+send packet 40
+send packet 40
+received ack 40
+send packet 40
+send packet 46
+cwnd : 2
+send packet 47
+cwnd : 2
+received ack 46
+send packet 48
+cwnd : 3
+send packet 49
+cwnd : 3
+received ack 47
+send packet 50
+cwnd : 4
+packet 51 is lost
+cwnd : 4
+received ack 48
+send packet 52
+cwnd : 5
+packet 53 is lost
+cwnd : 5
+received ack 49
+packet 54 is lost
+cwnd : 6
+send packet 55
+cwnd : 6
+received ack 50
+send packet 56
+cwnd : 7
+send packet 57
+cwnd : 7
+received ack 52
+packet 58 is lost
+cwnd : 8
+received ack 56
+send packet 59
+cwnd : 9
+received ack 57
+send packet 60
+cwnd : 10
+received ack 59
+send packet 61
+cwnd : 11
+received ack 61
+send packet 62
+cwnd : 12
+send packet 54
+send packet 55
+received ack 55
+packet 58 is lost
+send packet 60
+packet 62 is lost
+received ack 51
+send packet 51
+packet 53 is lost
+received ack 54
+send packet 54
+send packet 58
+send packet 60
+send packet 62
+packet 53 is lost
+received ack 62
+packet 58 is lost
+received ack 60
+send packet 60
+send packet 53
+received ack 58
+send packet 58
+send packet 53
+send packet 53
+received ack 53
+send packet 53
+packet 63 is lost
+cwnd : 2
+send packet 64
+cwnd : 2
+received ack 64
+packet 65 is lost
+cwnd : 3
+packet 63 is lost
+packet 65 is lost
+received ack 63
+send packet 63
+send packet 66
+cwnd : 2
+received ack 66
+packet 65 is lost
+packet 65 is lost
+packet 65 is lost
+send packet 65
+send packet 65
+packet 65 is lost
+packet 65 is lost
+received ack 65
+send packet 65
+send packet 67
+cwnd : 2
+received ack 67
+send packet 68
+cwnd : 2
+packet 69 is lost
+cwnd : 3
+packet 70 is lost
+cwnd : 3
+send packet 68
+send packet 69
+send packet 70
+packet 68 is lost
+send packet 69
+received ack 70
+send packet 70
+send packet 68
+received ack 69
+send packet 69
+packet 68 is lost
+send packet 68
+received ack 68
+send packet 68
+send packet 71
+cwnd : 2
+packet 72 is lost
+cwnd : 2
+received ack 71
+send packet 71
+send packet 72
+packet 73 is lost
+received ack 72
+cwnd : 2
+packet 74 is lost
+cwnd : 3
+send packet 75
+cwnd : 3
+received ack 75
+send packet 76
+cwnd : 4
+received ack 76
+send packet 77
+cwnd : 5
+send packet 73
+packet 74 is lost
+received ack 77
+send packet 77
+send packet 73
+received ack 74
+send packet 74
+received ack 73
+send packet 73
+send packet 78
+cwnd : 2
+received ack 79
+send packet 79
+cwnd : 2
+packet 80 is lost
+cwnd : 3
+send packet 78
+received ack 78
+packet 80 is lost
+send packet 80
+received ack 80
+packet 81 is lost
+cwnd : 2
+send packet 82
+cwnd : 2
+send packet 81
+packet 82 is lost
+send packet 81
+send packet 82
+received ack 81
+received ack 82
+send packet 83
+cwnd : 2
+packet 84 is lost
+cwnd : 3
+received ack 83
+packet 85 is lost
+cwnd : 3
+send packet 86
+cwnd : 4
+packet 87 is lost
+cwnd : 4
+packet 84 is lost
+packet 85 is lost
+send packet 86
+packet 87 is lost
+send packet 84
+send packet 85
+packet 86 is lost
+send packet 87
+received ack 87
+packet 84 is lost
+send packet 85
+received ack 85
+packet 86 is lost
+packet 84 is lost
+packet 86 is lost
+send packet 84
+send packet 86
+received ack 86
+packet 84 is lost
+packet 84 is lost
+send packet 84
+packet 84 is lost
+send packet 84
+received ack 84
+received ack 88
+send packet 88
+cwnd : 2
+send packet 89
+cwnd : 2
+send packet 90
+cwnd : 3
+send packet 91
+cwnd : 3
+received ack 90
+send packet 92
+cwnd : 4
+received ack 91
+packet 93 is lost
+cwnd : 5
+received ack 92
+send packet 94
+cwnd : 6
+received ack 94
+send packet 95
+cwnd : 7
+packet 89 is lost
+send packet 93
+send packet 95
+received ack 93
+received ack 95
+send packet 89
+send packet 89
+received ack 89
+send packet 96
+cwnd : 2
+send packet 97
+cwnd : 2
+received ack 96
+send packet 98
+cwnd : 3
+send packet 99
+cwnd : 3
+received ack 97
+packet 100 is lost
+cwnd : 4
+send packet 101
+cwnd : 4
+received ack 98
+packet 102 is lost
+cwnd : 5
+send packet 103
+cwnd : 5
+received ack 99
+received ack 101
+packet 104 is lost
+cwnd : 7
+packet 105 is lost
+cwnd : 7
+packet 106 is lost
+cwnd : 7
+received ack 103
+send packet 107
+cwnd : 8
+send packet 104
+send packet 105
+send packet 106
+send packet 107
+packet 100 is lost
+packet 102 is lost
+received ack 104
+received ack 105
+received ack 106
+received ack 107
+packet 100 is lost
+packet 102 is lost
+packet 100 is lost
+send packet 102
+send packet 100
+send packet 102
+received ack 100
+packet 102 is lost
+packet 102 is lost
+send packet 102
+send packet 102
+packet 102 is lost
+packet 102 is lost
+send packet 102
+received ack 102
+packet 108 is lost
+cwnd : 2
+packet 109 is lost
+cwnd : 2
+send packet 108
+send packet 109
+received ack 109
+packet 108 is lost
+send packet 108
+send packet 108
+received ack 108
+packet 110 is lost
+cwnd : 2
+packet 111 is lost
+cwnd : 2
+send packet 110
+send packet 111
+received ack 111
+send packet 110
+received ack 110
+send packet 112
+cwnd : 2
+send packet 113
+cwnd : 2
+received ack 112
+send packet 114
+cwnd : 3
+send packet 115
+cwnd : 3
+received ack 114
+send packet 116
+cwnd : 4
+received ack 115
+send packet 117
+cwnd : 5
+received ack 116
+send packet 118
+cwnd : 6
+received ack 117
+send packet 119
+cwnd : 7
+received ack 119
+send packet 120
+cwnd : 8
+received ack 120
+send packet 121
+cwnd : 9
+received ack 121
+send packet 122
+cwnd : 10
+received ack 122
+send packet 123
+cwnd : 11
+received ack 123
+send packet 124
+cwnd : 12
+send packet 124
+send packet 113
+send packet 118
+received ack 124
+received ack 118
+send packet 113
+send packet 113
+packet 113 is lost
+send packet 113
+received ack 113
+send packet 125
+cwnd : 2
+send packet 126
+cwnd : 2
+received ack 125
+packet 127 is lost
+cwnd : 3
+send packet 128
+cwnd : 3
+received ack 126
+send packet 129
+cwnd : 4
+send packet 130
+cwnd : 4
+received ack 128
+received ack 129
+send packet 131
+cwnd : 5
+received ack 130
+send packet 132
+cwnd : 6
+received ack 131
+send packet 133
+cwnd : 7
+received ack 132
+send packet 134
+cwnd : 8
+received ack 134
+send packet 135
+cwnd : 9
+packet 136 is lost
+cwnd : 10
+send packet 127
+send packet 133
+send packet 135
+packet 136 is lost
+received ack 127
+received ack 133
+received ack 135
+send packet 137
+cwnd : 4
+packet 138 is lost
+cwnd : 4
+send packet 139
+cwnd : 4
+received ack 137
+send packet 140
+cwnd : 5
+send packet 136
+received ack 136
+packet 141 is lost
+cwnd : 4
+send packet 138
+packet 139 is lost
+send packet 140
+received ack 140
+send packet 141
+received ack 141
+packet 138 is lost
+packet 139 is lost
+packet 138 is lost
+send packet 139
+packet 138 is lost
+send packet 139
+packet 138 is lost
+send packet 139
+received ack 139
+packet 138 is lost
+packet 138 is lost
+send packet 138
+packet 138 is lost
+send packet 138
+received ack 138
+send packet 142
+cwnd : 2
+packet 143 is lost
+cwnd : 2
+received ack 142
+packet 144 is lost
+cwnd : 3
+packet 145 is lost
+cwnd : 3
+send packet 143
+send packet 144
+send packet 145
+received ack 143
+packet 144 is lost
+packet 145 is lost
+packet 144 is lost
+send packet 145
+received ack 145
+send packet 144
+received ack 144
+send packet 146
+cwnd : 2
+send packet 147
+cwnd : 2
+received ack 146
+send packet 148
+cwnd : 3
+send packet 149
+cwnd : 3
+received ack 148
+send packet 150
+cwnd : 4
+received ack 149
+send packet 151
+cwnd : 5
+received ack 151
+send packet 152
+cwnd : 6
+packet 147 is lost
+send packet 150
+received ack 150
+packet 152 is lost
+send packet 147
+received ack 147
+send packet 153
+cwnd : 2
+received ack 153
+send packet 154
+cwnd : 3
+send packet 152
+packet 154 is lost
+send packet 152
+send packet 154
+received ack 154
+packet 152 is lost
+send packet 152
+received ack 152
+packet 155 is lost
+cwnd : 2
+send packet 156
+cwnd : 2
+received ack 156
+packet 157 is lost
+cwnd : 3
+send packet 155
+received ack 155
+send packet 157
+send packet 157
+received ack 157
+received ack 158
+send packet 158
+cwnd : 2
+packet 159 is lost
+cwnd : 2
+send packet 160
+cwnd : 3
+send packet 161
+cwnd : 3
+received ack 160
+send packet 162
+cwnd : 4
+received ack 161
+send packet 163
+cwnd : 5
+received ack 162
+send packet 164
+cwnd : 6
+received ack 163
+received ack 164
+send packet 165
+cwnd : 7
+send packet 166
+cwnd : 8
+send packet 159
+received ack 159
+send packet 167
+cwnd : 8
+send packet 168
+cwnd : 8
+send packet 169
+cwnd : 8
+packet 170 is lost
+cwnd : 8
+packet 171 is lost
+cwnd : 8
+send packet 172
+cwnd : 8
+received ack 172
+packet 173 is lost
+cwnd : 9
+packet 166 is lost
+send packet 167
+send packet 168
+packet 169 is lost
+received ack 167
+received ack 168
+send packet 170
+send packet 171
+packet 173 is lost
+packet 165 is lost
+received ack 171
+packet 166 is lost
+send packet 169
+packet 170 is lost
+send packet 173
+send packet 165
+received ack 173
+received ack 165
+packet 166 is lost
+send packet 169
+send packet 170
+received ack 169
+received ack 170
+packet 166 is lost
+send packet 166
+received ack 166
+send packet 174
+cwnd : 2
+received ack 174
+send packet 175
+cwnd : 2
+packet 176 is lost
+cwnd : 3
+send packet 177
+cwnd : 3
+received ack 177
+send packet 178
+cwnd : 4
+received ack 178
+packet 179 is lost
+cwnd : 5
+send packet 175
+send packet 176
+send packet 179
+received ack 179
+send packet 175
+send packet 176
+received ack 175
+send packet 176
+send packet 176
+received ack 176
+send packet 180
+cwnd : 2
+packet 181 is lost
+cwnd : 2
+received ack 180
+packet 182 is lost
+cwnd : 3
+send packet 183
+cwnd : 3
+received ack 183
+send packet 184
+cwnd : 4
+send packet 184
+send packet 181
+send packet 182
+received ack 181
+received ack 182
+packet 185 is lost
+cwnd : 3
+send packet 186
+cwnd : 3
+received ack 186
+send packet 187
+cwnd : 4
+send packet 184
+send packet 185
+received ack 185
+send packet 187
+received ack 187
+send packet 184
+received ack 184
+packet 188 is lost
+cwnd : 2
+send packet 189
+cwnd : 2
+received ack 189
+send packet 190
+cwnd : 3
+received ack 190
+send packet 191
+cwnd : 4
+received ack 191
+send packet 192
+cwnd : 5
+received ack 192
+send packet 193
+cwnd : 6
+received ack 193
+packet 194 is lost
+cwnd : 7
+send packet 188
+received ack 188
+send packet 195
+cwnd : 6
+packet 196 is lost
+cwnd : 6
+packet 197 is lost
+cwnd : 6
+send packet 198
+cwnd : 6
+packet 199 is lost
+cwnd : 6
+received ack 198
+packet 200 is lost
+cwnd : 7
+packet 194 is lost
+send packet 195
+send packet 196
+send packet 197
+packet 199 is lost
+received ack 197
+send packet 200
+send packet 194
+received ack 194
+send packet 195
+send packet 196
+send packet 199
+received ack 196
+received ack 199
+packet 200 is lost
+packet 195 is lost
+packet 200 is lost
+packet 195 is lost
+send packet 200
+received ack 200
+send packet 195
+received ack 195
+send packet 201
+cwnd : 2
+send packet 202
+cwnd : 2
+send packet 201
+send packet 202
+received ack 201
+received ack 202
+send packet 203
+cwnd : 2
+received ack 203
+send packet 204
+cwnd : 3
+send packet 205
+cwnd : 3
+packet 206 is lost
+cwnd : 4
+packet 207 is lost
+received ack 204
+cwnd : 4
+received ack 205
+packet 208 is lost
+cwnd : 6
+packet 209 is lost
+cwnd : 6
+send packet 210
+cwnd : 6
+send packet 211
+cwnd : 6
+received ack 210
+received ack 211
+send packet 212
+cwnd : 7
+packet 213 is lost
+cwnd : 8
+received ack 212
+send packet 214
+cwnd : 9
+received ack 214
+send packet 215
+cwnd : 10
+send packet 206
+packet 207 is lost
+send packet 208
+send packet 209
+send packet 213
+received ack 213
+send packet 215
+send packet 206
+send packet 207
+received ack 207
+send packet 208
+send packet 209
+received ack 208
+received ack 209
+send packet 215
+received ack 215
+send packet 206
+received ack 206
+packet 216 is lost
+cwnd : 2
+send packet 217
+cwnd : 2
+received ack 217
+send packet 218
+cwnd : 3
+send packet 216
+received ack 216
+send packet 219
+cwnd : 2
+send packet 218
+packet 219 is lost
+send packet 218
+received ack 218
+send packet 220
+cwnd : 2
+send packet 219
+received ack 219
+send packet 221
+cwnd : 2
+packet 220 is lost
+packet 221 is lost
+send packet 220
+received ack 220
+send packet 222
+cwnd : 2
+received ack 222
+packet 223 is lost
+cwnd : 3
+send packet 221
+packet 223 is lost
+send packet 221
+received ack 221
+send packet 224
+cwnd : 2
+received ack 224
+send packet 225
+cwnd : 3
+received ack 225
+send packet 226
+cwnd : 4
+send packet 223
+received ack 223
+packet 227 is lost
+cwnd : 4
+packet 228 is lost
+cwnd : 4
+send packet 229
+cwnd : 4
+received ack 229
+packet 230 is lost
+cwnd : 5
+send packet 226
+packet 227 is lost
+send packet 228
+packet 230 is lost
+received ack 228
+send packet 226
+received ack 226
+packet 227 is lost
+send packet 230
+received ack 230
+packet 227 is lost
+send packet 227
+packet 227 is lost
+send packet 227
+received ack 227
+received ack 231
+send packet 231
+cwnd : 2
+packet 232 is lost
+cwnd : 2
+send packet 233
+cwnd : 3
+send packet 234
+cwnd : 3
+send packet 232
+send packet 233
+send packet 234
+received ack 232
+received ack 234
+send packet 235
+cwnd : 3
+received ack 235
+send packet 236
+cwnd : 4
+received ack 236
+send packet 237
+cwnd : 5
+send packet 233
+packet 237 is lost
+packet 233 is lost
+send packet 237
+packet 233 is lost
+send packet 237
+received ack 237
+packet 233 is lost
+send packet 233
+packet 233 is lost
+send packet 233
+received ack 233
+packet 238 is lost
+cwnd : 2
+send packet 239
+cwnd : 2
+received ack 239
+send packet 240
+cwnd : 3
+received ack 240
+send packet 241
+cwnd : 4
+send packet 238
+received ack 238
+send packet 241
+received ack 241
+packet 242 is lost
+cwnd : 4
+send packet 243
+cwnd : 4
+send packet 244
+cwnd : 4
+send packet 245
+cwnd : 4
+received ack 243
+received ack 245
+send packet 246
+cwnd : 5
+send packet 247
+cwnd : 6
+received ack 246
+send packet 248
+cwnd : 7
+send packet 242
+received ack 242
+send packet 249
+cwnd : 6
+received ack 249
+packet 250 is lost
+cwnd : 7
+packet 247 is lost
+send packet 248
+send packet 250
+send packet 244
+received ack 248
+received ack 244
+packet 247 is lost
+send packet 250
+packet 247 is lost
+packet 250 is lost
+send packet 247
+received ack 247
+send packet 250
+received ack 250
+send packet 251
+cwnd : 2
+received ack 251
+send packet 252
+cwnd : 3
+send packet 253
+cwnd : 3
+received ack 252
+send packet 254
+cwnd : 4
+send packet 255
+cwnd : 4
+received ack 253
+send packet 256
+cwnd : 5
+packet 257 is lost
+cwnd : 5
+received ack 254
+send packet 258
+cwnd : 6
+send packet 259
+cwnd : 6
+received ack 256
+packet 260 is lost
+cwnd : 7
+send packet 261
+cwnd : 7
+packet 262 is lost
+received ack 258
+cwnd : 8
+packet 263 is lost
+received ack 261
+cwnd : 9
+send packet 264
+cwnd : 10
+packet 255 is lost
+send packet 257
+packet 259 is lost
+send packet 260
+send packet 262
+send packet 263
+send packet 264
+received ack 262
+received ack 263
+received ack 264
+send packet 259
+send packet 260
+send packet 255
+send packet 257
+received ack 259
+received ack 260
+received ack 255
+send packet 257
+received ack 257
+packet 265 is lost
+cwnd : 4
+send packet 266
+cwnd : 4
+send packet 267
+cwnd : 4
+send packet 268
+cwnd : 4
+received ack 268
+packet 269 is lost
+cwnd : 5
+send packet 265
+send packet 266
+send packet 267
+received ack 265
+send packet 269
+received ack 266
+received ack 269
+send packet 267
+send packet 267
+send packet 267
+received ack 267
+received ack 267
+received ack 270
+send packet 270
+cwnd : 2
+send packet 271
+cwnd : 2
+received ack 271
+send packet 272
+cwnd : 3
+packet 273 is lost
+cwnd : 3
+packet 274 is lost
+cwnd : 4
+send packet 275
+cwnd : 4
+received ack 272
+send packet 276
+cwnd : 5
+send packet 277
+cwnd : 5
+received ack 276
+send packet 278
+cwnd : 6
+received ack 278
+received ack 279
+send packet 279
+cwnd : 7
+send packet 280
+cwnd : 8
+packet 273 is lost
+send packet 274
+send packet 275
+send packet 277
+received ack 274
+received ack 275
+received ack 277
+send packet 280
+send packet 273
+packet 280 is lost
+send packet 273
+packet 280 is lost
+packet 273 is lost
+packet 280 is lost
+send packet 273
+received ack 273
+send packet 281
+cwnd : 2
+send packet 280
+received ack 280
+packet 282 is lost
+cwnd : 2
+send packet 281
+received ack 281
+send packet 282
+received ack 282
+packet 283 is lost
+cwnd : 2
+packet 284 is lost
+cwnd : 2
+send packet 283
+send packet 284
+received ack 283
+packet 285 is lost
+cwnd : 2
+received ack 284
+send packet 286
+cwnd : 3
+send packet 287
+cwnd : 3
+send packet 285
+received ack 285
+send packet 286
+packet 287 is lost
+received ack 286
+send packet 288
+cwnd : 2
+received ack 288
+send packet 289
+cwnd : 3
+packet 287 is lost
+received ack 289
+send packet 289
+send packet 287
+send packet 287
+send packet 287
+received ack 287
+packet 290 is lost
+cwnd : 2
+packet 291 is lost
+cwnd : 2
+send packet 290
+send packet 291
+received ack 290
+received ack 291
+send packet 292
+cwnd : 3
+packet 293 is lost
+cwnd : 3
+packet 294 is lost
+cwnd : 3
+received ack 292
+send packet 295
+cwnd : 4
+send packet 296
+cwnd : 4
+received ack 296
+send packet 297
+cwnd : 5
+received ack 297
+packet 298 is lost
+cwnd : 6
+packet 293 is lost
+send packet 294
+send packet 295
+send packet 298
+received ack 294
+received ack 295
+received ack 298
+send packet 293
+received ack 293
+packet 299 is lost
+cwnd : 4
+send packet 300
+cwnd : 4
+send packet 301
+cwnd : 4
+send packet 302
+cwnd : 4
+received ack 300
+packet 303 is lost
+cwnd : 5
+received ack 301
+packet 304 is lost
+cwnd : 6
+received ack 302
+send packet 305
+cwnd : 7
+received ack 305
+packet 306 is lost
+cwnd : 8
+send packet 299
+received ack 299
+packet 307 is lost
+cwnd : 8
+send packet 308
+cwnd : 8
+send packet 309
+cwnd : 8
+send packet 310
+cwnd : 8
+received ack 308
+packet 303 is lost
+send packet 304
+received ack 309
+received ack 304
+send packet 306
+received ack 306
+send packet 307
+send packet 310
+send packet 303
+received ack 307
+received ack 310
+packet 303 is lost
+packet 303 is lost
+send packet 303
+received ack 303
+send packet 311
+cwnd : 2
+send packet 312
+cwnd : 2
+received ack 311
+send packet 313
+cwnd : 3
+send packet 314
+cwnd : 3
+received ack 313
+packet 315 is lost
+cwnd : 4
+packet 312 is lost
+send packet 314
+send packet 315
+received ack 315
+packet 312 is lost
+send packet 314
+received ack 314
+send packet 312
+received ack 312
+send packet 316
+cwnd : 2
+send packet 317
+cwnd : 2
+received ack 316
+received ack 317
+send packet 318
+cwnd : 3
+send packet 319
+cwnd : 3
+send packet 320
+cwnd : 4
+packet 321 is lost
+cwnd : 4
+packet 318 is lost
+send packet 319
+packet 320 is lost
+packet 321 is lost
+packet 318 is lost
+send packet 319
+send packet 320
+received ack 319
+send packet 321
+received ack 320
+received ack 321
+send packet 318
+received ack 318
+send packet 322
+cwnd : 4
+send packet 323
+cwnd : 4
+packet 324 is lost
+cwnd : 4
+send packet 325
+cwnd : 4
+received ack 322
+received ack 323
+send packet 326
+cwnd : 5
+send packet 327
+cwnd : 5
+received ack 325
+send packet 328
+cwnd : 6
+send packet 329
+cwnd : 6
+received ack 327
+send packet 330
+cwnd : 7
+received ack 329
+packet 331 is lost
+cwnd : 9
+received ack 330
+send packet 332
+cwnd : 9
+received ack 332
+packet 333 is lost
+cwnd : 10
+send packet 334
+cwnd : 11
+received ack 334
+send packet 324
+packet 326 is lost
+send packet 333
+packet 324 is lost
+send packet 326
+send packet 328
+send packet 331
+received ack 333
+received ack 326
+received ack 331
+packet 324 is lost
+send packet 328
+received ack 328
+packet 324 is lost
+send packet 324
+received ack 324
+send packet 335
+cwnd : 2
+send packet 336
+cwnd : 2
+received ack 335
+received ack 336
+send packet 337
+cwnd : 4
+send packet 338
+cwnd : 4
+send packet 339
+cwnd : 4
+send packet 340
+cwnd : 4
+received ack 337
+send packet 341
+cwnd : 5
+send packet 342
+cwnd : 5
+received ack 338
+received ack 340
+packet 343 is lost
+cwnd : 7
+packet 344 is lost
+cwnd : 7
+send packet 345
+cwnd : 7
+received ack 342
+send packet 346
+cwnd : 8
+received ack 345
+received ack 346
+send packet 347
+cwnd : 9
+received ack 347
+send packet 348
+cwnd : 10
+packet 349 is lost
+cwnd : 11
+send packet 348
+send packet 349
+send packet 339
+packet 341 is lost
+send packet 343
+send packet 344
+received ack 348
+received ack 349
+received ack 339
+received ack 343
+received ack 344
+send packet 341
+send packet 341
+received ack 341
+send packet 350
+cwnd : 2
+send packet 351
+cwnd : 2
+received ack 350
+received ack 351
+send packet 352
+cwnd : 3
+send packet 353
+cwnd : 3
+send packet 354
+cwnd : 4
+send packet 355
+cwnd : 4
+received ack 353
+received ack 354
+send packet 356
+cwnd : 5
+packet 357 is lost
+cwnd : 6
+received ack 355
+send packet 358
+cwnd : 7
+packet 356 is lost
+send packet 357
+packet 358 is lost
+send packet 352
+received ack 357
+received ack 352
+send packet 356
+send packet 358
+received ack 358
+packet 356 is lost
+send packet 356
+send packet 356
+received ack 356
+send packet 359
+cwnd : 2
+send packet 360
+cwnd : 2
+send packet 359
+send packet 360
+received ack 359
+received ack 360
+send packet 361
+cwnd : 3
+send packet 362
+cwnd : 3
+send packet 363
+cwnd : 3
+received ack 361
+received ack 362
+send packet 364
+cwnd : 4
+send packet 365
+cwnd : 4
+received ack 363
+send packet 366
+cwnd : 5
+packet 367 is lost
+cwnd : 5
+received ack 365
+packet 368 is lost
+cwnd : 6
+send packet 369
+cwnd : 6
+received ack 366
+received ack 369
+packet 370 is lost
+cwnd : 9
+send packet 371
+cwnd : 9
+send packet 372
+cwnd : 9
+received ack 372
+packet 373 is lost
+cwnd : 10
+send packet 364
+send packet 367
+send packet 368
+send packet 370
+send packet 371
+send packet 373
+packet 364 is lost
+received ack 368
+received ack 373
+packet 370 is lost
+packet 371 is lost
+send packet 364
+send packet 367
+received ack 364
+packet 370 is lost
+send packet 371
+packet 367 is lost
+received ack 371
+packet 370 is lost
+send packet 367
+packet 370 is lost
+send packet 367
+received ack 367
+packet 370 is lost
+send packet 370
+received ack 370
+send packet 374
+cwnd : 2
+send packet 375
+cwnd : 2
+received ack 375
+send packet 376
+cwnd : 3
+received ack 376
+send packet 377
+cwnd : 4
+received ack 377
+packet 378 is lost
+cwnd : 5
+send packet 374
+send packet 378
+received ack 378
+send packet 374
+received ack 374
+send packet 379
+cwnd : 2
+packet 380 is lost
+cwnd : 2
+received ack 379
+packet 379 is lost
+packet 380 is lost
+packet 381 is lost
+cwnd : 2
+packet 380 is lost
+send packet 381
+packet 380 is lost
+send packet 381
+received ack 381
+packet 380 is lost
+send packet 380
+received ack 380
+send packet 382
+cwnd : 2
+packet 383 is lost
+cwnd : 2
+send packet 383
+send packet 382
+received ack 383
+received ack 382
+packet 384 is lost
+cwnd : 3
+send packet 385
+cwnd : 3
+send packet 386
+cwnd : 3
+received ack 385
+packet 387 is lost
+cwnd : 4
+received ack 386
+send packet 388
+cwnd : 5
+received ack 388
+send packet 389
+cwnd : 6
+received ack 389
+send packet 390
+cwnd : 7
+received ack 390
+packet 391 is lost
+cwnd : 8
+send packet 384
+send packet 387
+received ack 387
+send packet 391
+send packet 384
+received ack 384
+send packet 392
+cwnd : 2
+received ack 392
+send packet 393
+cwnd : 3
+received ack 393
+send packet 391
+received ack 391
+send packet 394
+cwnd : 4
+packet 395 is lost
+cwnd : 4
+send packet 396
+cwnd : 4
+send packet 397
+cwnd : 4
+received ack 396
+send packet 398
+cwnd : 5
+received ack 398
+send packet 399
+cwnd : 6
+received ack 399
+packet 400 is lost
+cwnd : 7
+packet 394 is lost
+send packet 395
+send packet 397
+received ack 395
+received ack 397
+send packet 400
+received ack 400
+send packet 394
+received ack 394
+packet 401 is lost
+cwnd : 2
+send packet 402
+cwnd : 2
+received ack 402
+packet 403 is lost
+cwnd : 3
+packet 401 is lost
+packet 403 is lost
+send packet 401
+received ack 401
+send packet 403
+received ack 403
+send packet 404
+cwnd : 2
+send packet 405
+cwnd : 3
+send packet 406
+cwnd : 3
+received ack 404
+send packet 407
+cwnd : 4
+packet 408 is lost
+cwnd : 4
+received ack 405
+received ack 406
+received ack 407
+packet 409 is lost
+cwnd : 7
+send packet 410
+cwnd : 7
+packet 411 is lost
+cwnd : 7
+send packet 412
+cwnd : 7
+send packet 413
+cwnd : 7
+send packet 414
+cwnd : 7
+received ack 414
+send packet 415
+cwnd : 8
+received ack 415
+send packet 416
+cwnd : 9
+send packet 408
+received ack 408
+send packet 409
+send packet 410
+packet 411 is lost
+send packet 412
+send packet 413
+received ack 410
+received ack 413
+send packet 416
+received ack 416
+packet 409 is lost
+send packet 411
+send packet 412
+received ack 411
+received ack 412
+send packet 409
+send packet 409
+packet 409 is lost
+send packet 409
+received ack 409
+send packet 417
+cwnd : 2
+send packet 418
+cwnd : 2
+received ack 417
+received ack 418
+send packet 419
+cwnd : 3
+send packet 420
+cwnd : 3
+send packet 421
+cwnd : 4
+packet 422 is lost
+cwnd : 4
+received ack 419
+send packet 423
+cwnd : 5
+packet 424 is lost
+cwnd : 5
+received ack 420
+packet 425 is lost
+cwnd : 6
+send packet 426
+cwnd : 6
+received ack 421
+packet 427 is lost
+cwnd : 7
+received ack 423
+packet 428 is lost
+cwnd : 7
+received ack 426
+send packet 429
+cwnd : 8
+received ack 429
+packet 430 is lost
+cwnd : 9
+send packet 431
+cwnd : 10
+send packet 425
+send packet 427
+packet 428 is lost
+send packet 430
+send packet 431
+packet 422 is lost
+received ack 425
+send packet 424
+received ack 427
+received ack 431
+received ack 424
+packet 428 is lost
+packet 430 is lost
+send packet 422
+send packet 430
+packet 428 is lost
+packet 422 is lost
+received ack 430
+send packet 428
+send packet 422
+received ack 422
+send packet 428
+received ack 428
+packet 432 is lost
+cwnd : 2
+packet 433 is lost
+cwnd : 2
+send packet 432
+send packet 433
+send packet 432
+send packet 433
+received ack 432
+packet 432 is lost
+packet 433 is lost
+received ack 433
+send packet 434
+cwnd : 3
+send packet 435
+cwnd : 3
+send packet 436
+cwnd : 3
+received ack 434
+send packet 437
+cwnd : 4
+packet 438 is lost
+cwnd : 4
+received ack 436
+packet 439 is lost
+cwnd : 5
+send packet 435
+send packet 437
+send packet 438
+received ack 435
+packet 439 is lost
+received ack 438
+send packet 437
+send packet 439
+received ack 439
+send packet 437
+received ack 437
+send packet 440
+cwnd : 2
+send packet 441
+cwnd : 2
+send packet 440
+send packet 441
+received ack 440
+send packet 442
+received ack 441
+cwnd : 2
+received ack 442
+send packet 443
+cwnd : 4
+send packet 444
+cwnd : 4
+send packet 445
+cwnd : 4
+send packet 446
+cwnd : 4
+received ack 443
+send packet 447
+received ack 444
+cwnd : 5
+packet 448 is lost
+cwnd : 5
+received ack 445
+send packet 449
+cwnd : 6
+send packet 450
+cwnd : 6
+received ack 446
+send packet 451
+cwnd : 7
+send packet 452
+cwnd : 7
+send packet 453
+received ack 450
+cwnd : 8
+send packet 454
+cwnd : 8
+received ack 451
+send packet 455
+cwnd : 9
+received ack 452
+packet 456 is lost
+cwnd : 11
+received ack 454
+send packet 457
+cwnd : 11
+packet 447 is lost
+received ack 457
+send packet 448
+packet 449 is lost
+packet 453 is lost
+send packet 455
+send packet 456
+received ack 448
+received ack 455
+received ack 456
+send packet 447
+send packet 449
+send packet 453
+received ack 449
+received ack 453
+send packet 447
+received ack 447
+send packet 458
+cwnd : 2
+packet 459 is lost
+cwnd : 2
+received ack 458
+packet 460 is lost
+cwnd : 3
+send packet 461
+cwnd : 3
+send packet 459
+packet 460 is lost
+packet 461 is lost
+send packet 459
+packet 460 is lost
+send packet 461
+received ack 459
+received ack 461
+send packet 462
+cwnd : 3
+received ack 462
+send packet 463
+cwnd : 4
+send packet 463
+packet 460 is lost
+received ack 463
+send packet 460
+send packet 460
+received ack 460
+send packet 464
+cwnd : 2
+send packet 465
+cwnd : 2
+received ack 464
+send packet 466
+cwnd : 3
+send packet 467
+cwnd : 3
+received ack 467
+send packet 468
+cwnd : 4
+received ack 468
+send packet 469
+cwnd : 5
+received ack 469
+packet 470 is lost
+cwnd : 6
+send packet 470
+send packet 465
+send packet 466
+received ack 465
+received ack 466
+send packet 471
+cwnd : 3
+send packet 472
+cwnd : 3
+packet 470 is lost
+send packet 471
+send packet 472
+received ack 471
+packet 470 is lost
+packet 472 is lost
+send packet 470
+received ack 470
+send packet 472
+received ack 472
+send packet 473
+cwnd : 2
+send packet 474
+cwnd : 2
+received ack 474
+send packet 475
+cwnd : 3
+received ack 475
+send packet 476
+cwnd : 4
+received ack 476
+send packet 477
+cwnd : 5
+received ack 477
+send packet 478
+cwnd : 6
+send packet 473
+packet 478 is lost
+received ack 473
+send packet 479
+cwnd : 2
+received ack 479
+send packet 480
+cwnd : 3
+received ack 480
+send packet 481
+cwnd : 4
+received ack 481
+send packet 482
+cwnd : 5
+send packet 478
+received ack 478
+send packet 483
+cwnd : 4
+send packet 484
+cwnd : 4
+send packet 485
+cwnd : 4
+received ack 483
+send packet 486
+cwnd : 5
+received ack 485
+packet 487 is lost
+cwnd : 6
+send packet 482
+received ack 482
+packet 488 is lost
+cwnd : 6
+send packet 489
+cwnd : 6
+received ack 489
+send packet 490
+cwnd : 7
+send packet 484
+received ack 484
+packet 491 is lost
+cwnd : 6
+packet 487 is lost
+packet 488 is lost
+send packet 490
+send packet 491
+send packet 486
+received ack 490
+received ack 486
+send packet 487
+send packet 488
+send packet 491
+received ack 488
+received ack 491
+packet 487 is lost
+send packet 487
+send packet 487
+send packet 487
+packet 487 is lost
+received ack 487
+send packet 492
+cwnd : 2
+send packet 493
+cwnd : 2
+received ack 492
+received ack 493
+send packet 494
+cwnd : 3
+send packet 495
+cwnd : 3
+received ack 495
+send packet 496
+cwnd : 4
+send packet 497
+cwnd : 4
+received ack 496
+send packet 498
+cwnd : 5
+send packet 499
+cwnd : 6
+received ack 498
+packet 500 is lost
+cwnd : 7
+send packet 494
+received ack 494
+packet 501 is lost
+cwnd : 6
+packet 502 is lost
+cwnd : 6
+send packet 497
+send packet 499
+received ack 499
+send packet 500
+received ack 500
+send packet 502
+send packet 501
+send packet 497
+received ack 497
+packet 502 is lost
+send packet 501
+received ack 501
+send packet 503
+cwnd : 2
+received ack 503
+send packet 504
+cwnd : 3
+received ack 504
+packet 505 is lost
+cwnd : 4
+send packet 505
+send packet 502
+received ack 502
+send packet 506
+cwnd : 2
+send packet 505
+received ack 505
+send packet 507
+cwnd : 2
+received ack 507
+send packet 508
+cwnd : 3
+send packet 506
+received ack 506
+packet 509 is lost
+cwnd : 2
+send packet 508
+received ack 508
+send packet 510
+cwnd : 2
+received ack 510
+send packet 511
+cwnd : 3
+received ack 511
+send packet 512
+cwnd : 4
+received ack 512
+send packet 513
+cwnd : 5
+send packet 509
+received ack 509
+send packet 514
+cwnd : 4
+send packet 515
+cwnd : 4
+send packet 516
+cwnd : 4
+received ack 515
+send packet 517
+received ack 516
+cwnd : 5
+received ack 517
+packet 518 is lost
+cwnd : 7
+send packet 519
+cwnd : 7
+received ack 519
+send packet 520
+cwnd : 8
+received ack 520
+send packet 521
+cwnd : 9
+send packet 513
+send packet 514
+received ack 513
+received ack 514
+send packet 522
+cwnd : 5
+send packet 518
+received ack 518
+send packet 523
+cwnd : 4
+send packet 524
+cwnd : 4
+received ack 523
+packet 525 is lost
+received ack 524
+cwnd : 5
+send packet 526
+cwnd : 6
+received ack 526
+packet 527 is lost
+cwnd : 7
+send packet 521
+received ack 521
+send packet 527
+send packet 522
+send packet 525
+received ack 527
+received ack 525
+packet 522 is lost
+send packet 522
+received ack 522
+packet 528 is lost
+cwnd : 2
+send packet 529
+cwnd : 2
+received ack 529
+send packet 530
+cwnd : 3
+received ack 530
+send packet 531
+cwnd : 4
+received ack 531
+send packet 532
+cwnd : 5
+send packet 528
+send packet 532
+received ack 532
+send packet 528
+packet 528 is lost
+send packet 528
+received ack 528
+send packet 533
+cwnd : 2
+packet 534 is lost
+cwnd : 2
+received ack 533
+send packet 535
+cwnd : 3
+send packet 536
+cwnd : 3
+received ack 535
+send packet 537
+cwnd : 4
+received ack 536
+send packet 538
+cwnd : 5
+received ack 537
+packet 539 is lost
+cwnd : 6
+send packet 538
+packet 539 is lost
+send packet 534
+packet 539 is lost
+packet 538 is lost
+send packet 534
+received ack 534
+send packet 539
+packet 538 is lost
+send packet 538
+packet 539 is lost
+packet 538 is lost
+packet 539 is lost
+send packet 538
+send packet 539
+received ack 538
+send packet 540
+cwnd : 2
+send packet 539
+received ack 539
+send packet 541
+cwnd : 2
+received ack 541
+send packet 542
+cwnd : 3
+send packet 540
+received ack 540
+packet 543 is lost
+cwnd : 2
+send packet 542
+send packet 543
+received ack 543
+send packet 542
+packet 542 is lost
+send packet 542
+send packet 542
+received ack 542
+packet 544 is lost
+cwnd : 2
+send packet 545
+cwnd : 2
+received ack 545
+send packet 546
+cwnd : 3
+send packet 544
+send packet 546
+send packet 544
+packet 546 is lost
+received ack 544
+received ack 546
+send packet 547
+cwnd : 3
+packet 548 is lost
+cwnd : 3
+send packet 549
+cwnd : 3
+received ack 547
+send packet 550
+cwnd : 4
+send packet 551
+cwnd : 4
+received ack 551
+send packet 552
+cwnd : 5
+packet 548 is lost
+packet 549 is lost
+send packet 550
+send packet 552
+packet 548 is lost
+packet 549 is lost
+send packet 550
+packet 552 is lost
+received ack 550
+send packet 548
+send packet 549
+received ack 548
+received ack 549
+send packet 553
+cwnd : 3
+packet 554 is lost
+cwnd : 3
+received ack 553
+packet 555 is lost
+cwnd : 4
+send packet 552
+received ack 552
+send packet 556
+cwnd : 4
+send packet 557
+cwnd : 4
+received ack 556
+received ack 557
+send packet 558
+cwnd : 6
+packet 559 is lost
+cwnd : 6
+received ack 558
+packet 560 is lost
+cwnd : 7
+packet 554 is lost
+send packet 555
+received ack 555
+packet 559 is lost
+send packet 560
+received ack 560
+send packet 554
+received ack 554
+send packet 559
+received ack 559
+packet 561 is lost
+cwnd : 2
+send packet 562
+cwnd : 2
+packet 561 is lost
+send packet 562
+received ack 562
+send packet 561
+send packet 561
+received ack 561
+received ack 561
+send packet 563
+cwnd : 2
+send packet 564
+cwnd : 2
+received ack 564
+packet 565 is lost
+cwnd : 3
+send packet 563
+received ack 563
+send packet 565
+received ack 565
+send packet 566
+cwnd : 2
+send packet 567
+cwnd : 3
+send packet 568
+cwnd : 3
+received ack 566
+send packet 569
+cwnd : 4
+packet 570 is lost
+cwnd : 4
+received ack 567
+received ack 568
+send packet 571
+cwnd : 5
+send packet 572
+cwnd : 5
+received ack 569
+send packet 573
+cwnd : 6
+send packet 574
+cwnd : 6
+send packet 569
+send packet 570
+send packet 571
+send packet 572
+send packet 573
+send packet 574
+received ack 571
+received ack 573
+received ack 574
+received ack 570
+received ack 571
+send packet 575
+cwnd : 6
+send packet 576
+cwnd : 6
+send packet 577
+cwnd : 6
+received ack 572
+received ack 573
+send packet 578
+cwnd : 7
+send packet 579
+cwnd : 7
+packet 580 is lost
+cwnd : 7
+send packet 581
+cwnd : 7
+received ack 574
+received ack 578
+received ack 579
+packet 582 is lost
+cwnd : 8
+received ack 581
+send packet 583
+cwnd : 9
+received ack 583
+send packet 584
+cwnd : 10
+received ack 584
+packet 585 is lost
+cwnd : 11
+send packet 586
+cwnd : 12
+received ack 586
+send packet 587
+cwnd : 13
+received ack 580
+send packet 580
+packet 582 is lost
+send packet 585
+send packet 587
+received ack 575
+send packet 575
+packet 576 is lost
+received ack 577
+send packet 577
+send packet 582
+received ack 585
+send packet 585
+packet 587 is lost
+send packet 576
+send packet 582
+send packet 587
+packet 576 is lost
+received ack 582
+send packet 587
+packet 576 is lost
+received ack 587
+send packet 576
+received ack 576
+packet 588 is lost
+cwnd : 2
+packet 589 is lost
+cwnd : 2
+send packet 588
+send packet 589
+received ack 588
+send packet 590
+received ack 589
+cwnd : 2
+packet 591 is lost
+cwnd : 3
+packet 592 is lost
+cwnd : 3
+send packet 590
+received ack 590
+send packet 591
+send packet 592
+received ack 591
+send packet 593
+cwnd : 2
+received ack 593
+send packet 594
+cwnd : 3
+send packet 592
+received ack 592
+packet 595 is lost
+cwnd : 2
+send packet 594
+received ack 594
+send packet 596
+cwnd : 2
+received ack 596
+send packet 597
+cwnd : 3
+received ack 597
+packet 598 is lost
+cwnd : 4
+packet 595 is lost
+send packet 598
+received ack 598
+packet 595 is lost
+packet 595 is lost
+send packet 595
+received ack 595
+packet 599 is lost
+cwnd : 2
+packet 600 is lost
+cwnd : 2
+packet 599 is lost
+send packet 600
+received ack 600
+packet 599 is lost
+packet 599 is lost
+packet 599 is lost
+send packet 599
+received ack 599
+send packet 601
+cwnd : 2
+send packet 602
+cwnd : 2
+received ack 601
+packet 603 is lost
+cwnd : 3
+send packet 604
+cwnd : 3
+received ack 604
+send packet 605
+cwnd : 4
+received ack 605
+packet 606 is lost
+cwnd : 5
+send packet 602
+send packet 603
+received ack 602
+send packet 606
+received ack 606
+send packet 603
+received ack 603
+send packet 607
+cwnd : 2
+send packet 608
+cwnd : 2
+send packet 607
+send packet 608
+received ack 607
+packet 609 is lost
+cwnd : 2
+received ack 608
+send packet 610
+cwnd : 3
+send packet 611
+cwnd : 3
+received ack 610
+received ack 611
+send packet 612
+cwnd : 4
+packet 613 is lost
+cwnd : 5
+received ack 612
+packet 614 is lost
+cwnd : 6
+send packet 613
+packet 614 is lost
+send packet 609
+received ack 613
+received ack 609
+packet 615 is lost
+cwnd : 3
+packet 616 is lost
+cwnd : 3
+send packet 614
+received ack 614
+send packet 615
+send packet 616
+received ack 615
+received ack 616
+send packet 617
+cwnd : 3
+packet 618 is lost
+cwnd : 3
+send packet 619
+cwnd : 3
+received ack 617
+received ack 619
+send packet 620
+cwnd : 4
+send packet 621
+cwnd : 4
+received ack 620
+packet 622 is lost
+cwnd : 5
+packet 623 is lost
+cwnd : 6
+received ack 621
+send packet 624
+cwnd : 7
+packet 622 is lost
+packet 623 is lost
+send packet 618
+send packet 624
+received ack 624
+packet 623 is lost
+send packet 622
+send packet 618
+received ack 622
+received ack 618
+send packet 625
+cwnd : 3
+packet 623 is lost
+send packet 625
+received ack 625
+send packet 623
+received ack 623
+send packet 626
+cwnd : 2
+send packet 627
+cwnd : 2
+received ack 626
+packet 628 is lost
+cwnd : 3
+send packet 629
+cwnd : 3
+received ack 627
+send packet 630
+cwnd : 4
+send packet 631
+cwnd : 4
+received ack 629
+send packet 632
+cwnd : 5
+received ack 630
+packet 633 is lost
+cwnd : 6
+received ack 631
+send packet 634
+cwnd : 7
+received ack 634
+send packet 635
+cwnd : 8
+send packet 628
+send packet 632
+packet 633 is lost
+received ack 628
+received ack 632
+send packet 635
+received ack 635
+send packet 633
+packet 633 is lost
+send packet 633
+received ack 633
+send packet 636
+cwnd : 2
+packet 637 is lost
+cwnd : 2
+received ack 636
+send packet 638
+cwnd : 3
+packet 639 is lost
+cwnd : 3
+received ack 638
+send packet 640
+cwnd : 4
+send packet 639
+send packet 637
+send packet 640
+received ack 640
+send packet 639
+packet 637 is lost
+send packet 639
+send packet 637
+received ack 639
+received ack 637
+send packet 641
+cwnd : 3
+send packet 642
+cwnd : 3
+send packet 643
+cwnd : 3
+received ack 642
+send packet 644
+cwnd : 4
+received ack 643
+received ack 644
+send packet 645
+cwnd : 5
+send packet 646
+cwnd : 6
+received ack 646
+packet 647 is lost
+cwnd : 7
+packet 641 is lost
+send packet 645
+packet 647 is lost
+received ack 645
+send packet 641
+packet 647 is lost
+received ack 641
+send packet 648
+cwnd : 2
+received ack 648
+send packet 649
+cwnd : 3
+send packet 647
+received ack 647
+send packet 650
+cwnd : 2
+packet 649 is lost
+received ack 650
+send packet 649
+received ack 649
+send packet 651
+cwnd : 2
+packet 652 is lost
+cwnd : 2
+received ack 651
+send packet 653
+cwnd : 3
+packet 654 is lost
+cwnd : 3
+received ack 653
+send packet 655
+cwnd : 4
+received ack 654
+send packet 654
+packet 655 is lost
+send packet 652
+received ack 652
+send packet 656
+cwnd : 3
+send packet 657
+cwnd : 3
+received ack 656
+send packet 658
+cwnd : 4
+received ack 658
+send packet 659
+cwnd : 5
+received ack 659
+send packet 660
+cwnd : 6
+received ack 660
+packet 661 is lost
+cwnd : 7
+send packet 655
+packet 657 is lost
+send packet 661
+packet 655 is lost
+send packet 657
+packet 661 is lost
+send packet 655
+send packet 657
+received ack 655
+received ack 657
+send packet 662
+cwnd : 3
+send packet 663
+cwnd : 3
+send packet 661
+received ack 662
+received ack 663
+received ack 661
+send packet 664
+cwnd : 4
+send packet 665
+cwnd : 4
+packet 666 is lost
+cwnd : 4
+send packet 667
+received ack 664
+cwnd : 4
+received ack 667
+packet 668 is lost
+cwnd : 5
+send packet 669
+cwnd : 5
+received ack 669
+send packet 670
+cwnd : 6
+send packet 671
+cwnd : 7
+received ack 671
+send packet 672
+cwnd : 8
+received ack 672
+send packet 673
+cwnd : 9
+received ack 673
+send packet 674
+cwnd : 10
+send packet 666
+send packet 668
+send packet 670
+send packet 674
+send packet 665
+received ack 666
+received ack 668
+received ack 670
+received ack 674
+received ack 665
+packet 675 is lost
+cwnd : 6
+send packet 676
+cwnd : 6
+send packet 677
+cwnd : 6
+send packet 678
+cwnd : 6
+send packet 679
+cwnd : 6
+send packet 680
+cwnd : 6
+received ack 677
+send packet 681
+cwnd : 7
+received ack 679
+packet 682 is lost
+cwnd : 8
+received ack 680
+received ack 681
+send packet 683
+cwnd : 9
+packet 684 is lost
+received ack 683
+cwnd : 10
+send packet 685
+cwnd : 11
+received ack 685
+packet 686 is lost
+cwnd : 12
+send packet 682
+send packet 684
+send packet 686
+send packet 675
+send packet 676
+packet 678 is lost
+received ack 686
+send packet 682
+packet 684 is lost
+send packet 675
+packet 676 is lost
+received ack 682
+send packet 678
+send packet 684
+send packet 675
+send packet 676
+send packet 678
+received ack 684
+received ack 675
+received ack 678
+packet 676 is lost
+send packet 676
+received ack 676
+send packet 687
+cwnd : 2
+packet 688 is lost
+cwnd : 2
+received ack 687
+packet 689 is lost
+cwnd : 3
+send packet 690
+cwnd : 3
+received ack 690
+send packet 691
+cwnd : 4
+received ack 691
+send packet 692
+cwnd : 5
+received ack 692
+packet 693 is lost
+cwnd : 6
+send packet 688
+send packet 689
+received ack 688
+received ack 689
+send packet 694
+cwnd : 3
+packet 695 is lost
+cwnd : 3
+received ack 694
+send packet 693
+send packet 695
+packet 693 is lost
+packet 695 is lost
+send packet 693
+received ack 693
+packet 696 is lost
+cwnd : 2
+send packet 695
+send packet 696
+received ack 696
+packet 695 is lost
+send packet 695
+received ack 695
+send packet 697
+cwnd : 2
+send packet 698
+cwnd : 2
+received ack 698
+send packet 699
+cwnd : 3
+received ack 699
+send packet 700
+cwnd : 4
+received ack 700
+send packet 701
+cwnd : 5
+send packet 697
+packet 701 is lost
+send packet 697
+received ack 697
+send packet 702
+cwnd : 2
+send packet 701
+received ack 702
+received ack 701
+packet 703 is lost
+cwnd : 3
+send packet 704
+cwnd : 3
+send packet 705
+cwnd : 3
+received ack 704
+received ack 705
+send packet 706
+cwnd : 4
+received ack 706
+send packet 707
+cwnd : 5
+received ack 707
+packet 708 is lost
+cwnd : 6
+packet 709 is lost
+cwnd : 7
+send packet 703
+send packet 708
+received ack 708
+send packet 709
+received ack 709
+send packet 703
+received ack 703
+packet 710 is lost
+cwnd : 2
+send packet 711
+cwnd : 2
+received ack 711
+send packet 712
+cwnd : 3
+received ack 712
+send packet 713
+cwnd : 4
+received ack 713
+send packet 714
+cwnd : 5
+received ack 714
+send packet 715
+cwnd : 6
+received ack 715
+send packet 716
+cwnd : 7
+received ack 716
+send packet 717
+cwnd : 8
+send packet 710
+packet 717 is lost
+send packet 710
+received ack 710
+packet 718 is lost
+cwnd : 2
+send packet 717
+send packet 718
+received ack 718
+packet 717 is lost
+send packet 717
+received ack 717
+send packet 719
+cwnd : 2
+send packet 720
+cwnd : 2
+received ack 719
+packet 721 is lost
+cwnd : 3
+send packet 722
+cwnd : 3
+received ack 722
+send packet 723
+cwnd : 4
+received ack 723
+packet 724 is lost
+cwnd : 5
+send packet 720
+send packet 721
+send packet 724
+received ack 720
+received ack 724
+send packet 721
+packet 721 is lost
+send packet 721
+received ack 721
+packet 725 is lost
+cwnd : 2
+packet 726 is lost
+cwnd : 2
+send packet 725
+packet 726 is lost
+received ack 725
+send packet 727
+cwnd : 2
+received ack 727
+send packet 728
+cwnd : 3
+send packet 726
+received ack 726
+packet 729 is lost
+cwnd : 2
+send packet 728
+received ack 728
+send packet 730
+cwnd : 2
+received ack 730
+packet 731 is lost
+cwnd : 3
+send packet 729
+received ack 729
+send packet 732
+cwnd : 2
+received ack 732
+packet 731 is lost
+send packet 731
+packet 731 is lost
+packet 731 is lost
+send packet 731
+received ack 731
+packet 733 is lost
+cwnd : 2
+send packet 734
+cwnd : 2
+received ack 734
+send packet 735
+cwnd : 3
+packet 733 is lost
+packet 735 is lost
+send packet 733
+received ack 733
+send packet 736
+cwnd : 2
+send packet 735
+received ack 735
+send packet 737
+cwnd : 2
+send packet 736
+received ack 736
+packet 738 is lost
+cwnd : 2
+send packet 737
+received ack 737
+packet 739 is lost
+cwnd : 2
+packet 738 is lost
+send packet 739
+send packet 738
+packet 739 is lost
+send packet 738
+received ack 738
+packet 739 is lost
+send packet 740
+cwnd : 2
+received ack 740
+send packet 741
+cwnd : 3
+received ack 741
+packet 742 is lost
+cwnd : 4
+send packet 739
+send packet 742
+received ack 739
+packet 743 is lost
+cwnd : 2
+received ack 742
+packet 744 is lost
+cwnd : 3
+packet 745 is lost
+cwnd : 3
+send packet 743
+received ack 743
+send packet 745
+packet 744 is lost
+send packet 745
+packet 744 is lost
+received ack 745
+packet 744 is lost
+send packet 744
+received ack 744
+packet 746 is lost
+cwnd : 2
+send packet 747
+cwnd : 2
+received ack 747
+send packet 748
+cwnd : 3
+received ack 748
+send packet 749
+cwnd : 4
+send packet 746
+packet 749 is lost
+received ack 746
+packet 750 is lost
+cwnd : 2
+packet 749 is lost
+send packet 750
+received ack 750
+send packet 749
+received ack 749
+send packet 751
+cwnd : 2
+send packet 752
+cwnd : 2
+received ack 751
+received ack 752
+send packet 753
+cwnd : 4
+packet 754 is lost
+cwnd : 4
+send packet 755
+cwnd : 4
+send packet 756
+cwnd : 4
+received ack 753
+received ack 755
+packet 757 is lost
+cwnd : 5
+send packet 758
+cwnd : 5
+received ack 758
+send packet 759
+cwnd : 6
+received ack 759
+send packet 760
+cwnd : 7
+received ack 760
+send packet 761
+cwnd : 8
+packet 762 is lost
+cwnd : 9
+packet 756 is lost
+send packet 754
+send packet 757
+received ack 757
+send packet 761
+packet 762 is lost
+send packet 756
+send packet 754
+packet 761 is lost
+send packet 762
+received ack 762
+send packet 756
+received ack 756
+send packet 754
+received ack 754
+packet 763 is lost
+cwnd : 3
+send packet 761
+received ack 761
+send packet 764
+cwnd : 2
+received ack 764
+send packet 765
+cwnd : 3
+send packet 763
+send packet 765
+received ack 765
+packet 763 is lost
+send packet 763
+received ack 763
+send packet 766
+cwnd : 2
+send packet 767
+cwnd : 2
+received ack 766
+received ack 767
+send packet 768
+cwnd : 3
+packet 769 is lost
+cwnd : 3
+send packet 770
+cwnd : 4
+send packet 771
+cwnd : 4
+received ack 770
+packet 772 is lost
+cwnd : 5
+received ack 771
+packet 773 is lost
+cwnd : 6
+send packet 772
+packet 773 is lost
+send packet 768
+received ack 772
+send packet 769
+received ack 768
+received ack 769
+send packet 774
+cwnd : 3
+send packet 775
+cwnd : 3
+received ack 775
+send packet 776
+cwnd : 4
+received ack 776
+send packet 777
+cwnd : 5
+received ack 777
+packet 778 is lost
+cwnd : 6
+packet 773 is lost
+packet 774 is lost
+send packet 778
+received ack 778
+send packet 773
+send packet 774
+received ack 774
+send packet 773
+received ack 773
+send packet 779
+cwnd : 2
+send packet 780
+cwnd : 2
+received ack 779
+send packet 781
+cwnd : 3
+send packet 782
+cwnd : 3
+received ack 780
+received ack 781
+send packet 783
+cwnd : 4
+send packet 784
+cwnd : 4
+received ack 783
+received ack 784
+send packet 785
+cwnd : 6
+packet 786 is lost
+cwnd : 6
+send packet 787
+cwnd : 6
+send packet 788
+cwnd : 7
+received ack 788
+send packet 789
+cwnd : 8
+send packet 782
+packet 785 is lost
+send packet 786
+send packet 787
+received ack 789
+send packet 789
+send packet 782
+received ack 782
+packet 785 is lost
+send packet 786
+send packet 787
+received ack 786
+send packet 785
+packet 787 is lost
+send packet 785
+send packet 787
+received ack 785
+received ack 787
+send packet 790
+cwnd : 3
+send packet 791
+cwnd : 3
+packet 792 is lost
+cwnd : 3
+received ack 790
+send packet 793
+cwnd : 4
+send packet 794
+cwnd : 4
+received ack 793
+send packet 795
+cwnd : 5
+received ack 795
+packet 796 is lost
+cwnd : 6
+send packet 792
+send packet 791
+send packet 794
+received ack 791
+received ack 794
+packet 796 is lost
+packet 792 is lost
+send packet 796
+received ack 796
+send packet 792
+send packet 792
+send packet 792
+received ack 792
+send packet 797
+cwnd : 2
+send packet 798
+cwnd : 2
+received ack 797
+packet 799 is lost
+cwnd : 3
+packet 800 is lost
+cwnd : 3
+received ack 798
+send packet 801
+cwnd : 4
+send packet 802
+cwnd : 4
+received ack 801
+packet 803 is lost
+received ack 802
+cwnd : 5
+send packet 804
+cwnd : 6
+received ack 804
+send packet 805
+cwnd : 7
+send packet 799
+send packet 800
+received ack 800
+send packet 803
+send packet 805
+received ack 805
+packet 803 is lost
+send packet 799
+received ack 799
+send packet 803
+received ack 803
+send packet 806
+cwnd : 2
+send packet 807
+cwnd : 2
+received ack 807
+send packet 808
+cwnd : 3
+send packet 806
+send packet 808
+received ack 808
+send packet 806
+received ack 806
+packet 809 is lost
+cwnd : 2
+packet 810 is lost
+cwnd : 2
+send packet 809
+send packet 810
+send packet 809
+packet 810 is lost
+received ack 809
+send packet 811
+cwnd : 2
+send packet 810
+received ack 810
+packet 811 is lost
+send packet 812
+cwnd : 2
+received ack 812
+send packet 813
+cwnd : 3
+received ack 813
+send packet 814
+cwnd : 4
+received ack 814
+send packet 815
+cwnd : 5
+send packet 811
+send packet 815
+received ack 811
+packet 816 is lost
+cwnd : 2
+send packet 815
+received ack 815
+send packet 816
+received ack 816
+send packet 817
+cwnd : 2
+send packet 818
+cwnd : 2
+received ack 817
+received ack 818
+packet 819 is lost
+cwnd : 3
+send packet 820
+cwnd : 3
+received ack 820
+packet 821 is lost
+cwnd : 4
+send packet 822
+cwnd : 4
+received ack 822
+send packet 823
+cwnd : 5
+received ack 823
+send packet 824
+cwnd : 6
+packet 825 is lost
+cwnd : 7
+received ack 824
+packet 826 is lost
+cwnd : 8
+send packet 821
+packet 825 is lost
+packet 826 is lost
+send packet 819
+received ack 821
+received ack 819
+packet 827 is lost
+cwnd : 3
+send packet 825
+send packet 826
+received ack 825
+received ack 826
+packet 827 is lost
+send packet 827
+received ack 827
+packet 828 is lost
+cwnd : 2
+send packet 829
+cwnd : 2
+received ack 829
+packet 830 is lost
+cwnd : 3
+send packet 828
+send packet 830
+packet 828 is lost
+send packet 830
+received ack 830
+packet 828 is lost
+send packet 828
+received ack 828
+send packet 831
+cwnd : 2
+packet 832 is lost
+cwnd : 2
+received ack 831
+send packet 833
+cwnd : 3
+send packet 834
+cwnd : 3
+received ack 833
+send packet 835
+cwnd : 4
+packet 832 is lost
+send packet 834
+received ack 834
+send packet 835
+received ack 835
+send packet 832
+send packet 832
+received ack 832
+send packet 836
+cwnd : 2
+send packet 837
+cwnd : 2
+received ack 837
+send packet 838
+cwnd : 3
+received ack 838
+packet 839 is lost
+cwnd : 4
+send packet 836
+received ack 836
+packet 840 is lost
+cwnd : 4
+send packet 841
+cwnd : 4
+send packet 842
+cwnd : 4
+received ack 841
+received ack 842
+send packet 839
+received ack 839
+send packet 843
+cwnd : 6
+send packet 844
+cwnd : 6
+packet 845 is lost
+cwnd : 6
+received ack 843
+received ack 844
+packet 846 is lost
+cwnd : 8
+send packet 847
+cwnd : 8
+received ack 847
+send packet 848
+cwnd : 9
+send packet 845
+send packet 846
+packet 848 is lost
+packet 840 is lost
+received ack 845
+received ack 846
+send packet 848
+send packet 840
+received ack 840
+send packet 848
+send packet 848
+received ack 848
+send packet 849
+cwnd : 2
+send packet 850
+cwnd : 2
+received ack 850
+send packet 851
+cwnd : 3
+send packet 849
+received ack 849
+send packet 852
+cwnd : 2
+received ack 852
+packet 853 is lost
+cwnd : 3
+send packet 851
+send packet 853
+received ack 853
+packet 851 is lost
+send packet 851
+received ack 851
+send packet 854
+cwnd : 2
+packet 855 is lost
+cwnd : 2
+send packet 854
+send packet 855
+received ack 855
+send packet 854
+send packet 854
+received ack 854
+send packet 856
+cwnd : 2
+send packet 857
+cwnd : 2
+received ack 856
+packet 858 is lost
+cwnd : 3
+packet 859 is lost
+cwnd : 3
+received ack 857
+packet 860 is lost
+cwnd : 4
+packet 861 is lost
+cwnd : 4
+packet 861 is lost
+send packet 858
+send packet 859
+packet 860 is lost
+packet 861 is lost
+packet 858 is lost
+send packet 859
+send packet 860
+received ack 859
+received ack 860
+packet 861 is lost
+send packet 858
+packet 861 is lost
+send packet 858
+received ack 858
+send packet 862
+cwnd : 2
+received ack 862
+send packet 863
+cwnd : 3
+send packet 861
+received ack 861
+packet 864 is lost
+cwnd : 2
+packet 863 is lost
+send packet 864
+send packet 863
+received ack 863
+send packet 865
+cwnd : 2
+send packet 864
+received ack 864
+packet 866 is lost
+cwnd : 2
+packet 865 is lost
+packet 866 is lost
+send packet 865
+received ack 865
+packet 867 is lost
+cwnd : 2
+send packet 866
+received ack 866
+send packet 868
+cwnd : 2
+received ack 868
+packet 869 is lost
+cwnd : 3
+send packet 867
+received ack 867
+send packet 870
+cwnd : 2
+received ack 870
+send packet 871
+cwnd : 3
+packet 869 is lost
+packet 871 is lost
+send packet 869
+received ack 869
+send packet 872
+cwnd : 2
+received ack 872
+send packet 873
+cwnd : 3
+packet 871 is lost
+send packet 873
+received ack 873
+send packet 871
+send packet 871
+received ack 871
+send packet 874
+cwnd : 2
+packet 875 is lost
+cwnd : 2
+received ack 874
+packet 876 is lost
+cwnd : 3
+packet 877 is lost
+cwnd : 3
+send packet 875
+received ack 875
+send packet 876
+send packet 877
+received ack 876
+send packet 878
+cwnd : 2
+packet 877 is lost
+send packet 878
+received ack 878
+send packet 877
+received ack 877
+send packet 879
+cwnd : 2
+packet 880 is lost
+cwnd : 2
+received ack 879
+packet 881 is lost
+cwnd : 3
+send packet 882
+cwnd : 3
+received ack 882
+send packet 883
+cwnd : 4
+send packet 880
+received ack 880
+send packet 881
+received ack 881
+send packet 883
+packet 884 is lost
+cwnd : 2
+packet 883 is lost
+send packet 884
+received ack 884
+send packet 883
+send packet 883
+received ack 883
+send packet 885
+cwnd : 2
+packet 886 is lost
+cwnd : 2
+received ack 885
+send packet 887
+cwnd : 3
+packet 888 is lost
+cwnd : 3
+received ack 887
+send packet 889
+cwnd : 4
+send packet 886
+received ack 886
+send packet 890
+cwnd : 4
+send packet 891
+cwnd : 4
+send packet 888
+received ack 890
+send packet 889
+send packet 891
+packet 888 is lost
+send packet 889
+received ack 889
+packet 891 is lost
+send packet 888
+received ack 888
+packet 892 is lost
+cwnd : 2
+send packet 891
+received ack 891
+send packet 893
+cwnd : 2
+received ack 893
+packet 892 is lost
+send packet 892
+received ack 892
+send packet 894
+cwnd : 2
+send packet 895
+cwnd : 2
+received ack 895
+send packet 896
+cwnd : 3
+received ack 896
+packet 897 is lost
+cwnd : 4
+send packet 894
+send packet 897
+received ack 897
+send packet 894
+received ack 894
+send packet 898
+cwnd : 2
+send packet 899
+cwnd : 2
+received ack 899
+send packet 900
+cwnd : 3
+send packet 898
+packet 900 is lost
+received ack 898
+packet 901 is lost
+cwnd : 2
+send packet 900
+send packet 901
+received ack 900
+received ack 901
+send packet 902
+cwnd : 3
+send packet 903
+cwnd : 3
+send packet 904
+cwnd : 3
+received ack 902
+received ack 903
+packet 905 is lost
+cwnd : 5
+send packet 906
+cwnd : 5
+send packet 907
+cwnd : 5
+packet 908 is lost
+cwnd : 5
+received ack 906
+send packet 909
+cwnd : 6
+received ack 909
+send packet 910
+cwnd : 7
+received ack 910
+packet 911 is lost
+cwnd : 8
+send packet 904
+packet 905 is lost
+send packet 907
+send packet 908
+received ack 907
+received ack 908
+packet 911 is lost
+send packet 904
+packet 905 is lost
+send packet 911
+received ack 911
+send packet 904
+packet 905 is lost
+received ack 904
+send packet 905
+received ack 905
+send packet 912
+cwnd : 2
+send packet 913
+cwnd : 2
+received ack 913
+send packet 914
+cwnd : 3
+received ack 914
+send packet 915
+cwnd : 4
+received ack 915
+send packet 916
+cwnd : 5
+received ack 916
+send packet 917
+cwnd : 6
+send packet 912
+packet 917 is lost
+send packet 912
+received ack 912
+send packet 918
+cwnd : 2
+received ack 918
+send packet 919
+cwnd : 3
+send packet 917
+received ack 917
+send packet 920
+cwnd : 2
+received ack 920
+packet 921 is lost
+cwnd : 3
+send packet 919
+received ack 919
+send packet 922
+cwnd : 2
+received ack 922
+send packet 923
+cwnd : 3
+send packet 921
+received ack 921
+send packet 924
+cwnd : 2
+received ack 924
+send packet 925
+cwnd : 3
+received ack 925
+packet 926 is lost
+cwnd : 4
+send packet 923
+received ack 923
+send packet 927
+cwnd : 4
+packet 928 is lost
+cwnd : 4
+packet 929 is lost
+cwnd : 4
+received ack 927
+send packet 930
+cwnd : 5
+received ack 930
+send packet 931
+cwnd : 6
+received ack 931
+packet 932 is lost
+cwnd : 7
+send packet 926
+received ack 926
+send packet 933
+cwnd : 6
+received ack 933
+packet 934 is lost
+cwnd : 7
+packet 928 is lost
+send packet 929
+received ack 929
+send packet 932
+received ack 932
+send packet 934
+received ack 934
+packet 928 is lost
+send packet 928
+received ack 928
+send packet 935
+cwnd : 2
+send packet 936
+cwnd : 2
+received ack 935
+packet 937 is lost
+cwnd : 3
+send packet 938
+cwnd : 3
+received ack 938
+send packet 939
+cwnd : 4
+received ack 939
+send packet 940
+cwnd : 5
+received ack 940
+send packet 941
+cwnd : 6
+received ack 941
+packet 942 is lost
+cwnd : 7
+send packet 937
+packet 942 is lost
+packet 936 is lost
+received ack 937
+send packet 942
+packet 936 is lost
+received ack 942
+send packet 936
+send packet 936
+received ack 936
+packet 943 is lost
+cwnd : 2
+send packet 944
+cwnd : 2
+received ack 944
+send packet 945
+cwnd : 3
+packet 943 is lost
+send packet 945
+received ack 945
+send packet 943
+received ack 943
+send packet 946
+cwnd : 2
+send packet 947
+cwnd : 2
+received ack 946
+received ack 947
+packet 948 is lost
+cwnd : 3
+packet 949 is lost
+cwnd : 3
+send packet 950
+cwnd : 4
+packet 951 is lost
+cwnd : 4
+received ack 950
+packet 952 is lost
+cwnd : 5
+send packet 948
+send packet 949
+received ack 948
+send packet 951
+send packet 952
+send packet 949
+received ack 949
+send packet 951
+send packet 952
+send packet 951
+received ack 951
+send packet 952
+received ack 952
+send packet 953
+cwnd : 2
+send packet 954
+cwnd : 2
+received ack 954
+packet 955 is lost
+cwnd : 3
+packet 955 is lost
+send packet 953
+received ack 953
+send packet 956
+cwnd : 2
+received ack 956
+packet 957 is lost
+cwnd : 3
+send packet 955
+received ack 955
+send packet 958
+cwnd : 2
+send packet 957
+received ack 958
+received ack 957
+send packet 959
+cwnd : 3
+send packet 960
+cwnd : 3
+send packet 961
+cwnd : 3
+received ack 959
+packet 962 is lost
+cwnd : 4
+received ack 960
+send packet 963
+cwnd : 4
+send packet 964
+cwnd : 5
+send packet 965
+cwnd : 5
+received ack 965
+send packet 966
+cwnd : 6
+received ack 966
+send packet 967
+cwnd : 7
+received ack 967
+send packet 968
+cwnd : 8
+received ack 968
+send packet 969
+cwnd : 9
+received ack 969
+send packet 970
+cwnd : 10
+received ack 970
+packet 971 is lost
+cwnd : 11
+send packet 971
+packet 961 is lost
+send packet 962
+send packet 963
+send packet 964
+received ack 971
+received ack 964
+packet 961 is lost
+send packet 962
+send packet 963
+received ack 963
+send packet 961
+send packet 962
+received ack 961
+received ack 962
+packet 972 is lost
+cwnd : 3
+packet 973 is lost
+cwnd : 3
+send packet 974
+cwnd : 3
+send packet 972
+packet 973 is lost
+send packet 974
+received ack 972
+received ack 974
+send packet 975
+cwnd : 3
+received ack 975
+send packet 976
+cwnd : 4
+received ack 976
+send packet 977
+cwnd : 5
+received ack 977
+send packet 978
+cwnd : 6
+received ack 978
+send packet 979
+cwnd : 7
+send packet 973
+send packet 979
+received ack 979
+send packet 973
+received ack 973
+send packet 980
+cwnd : 2
+send packet 981
+cwnd : 2
+received ack 980
+received ack 981
+send packet 982
+cwnd : 3
+send packet 983
+cwnd : 3
+packet 984 is lost
+cwnd : 4
+received ack 982
+send packet 985
+cwnd : 4
+packet 986 is lost
+received ack 983
+cwnd : 5
+send packet 987
+cwnd : 5
+received ack 985
+send packet 988
+cwnd : 6
+send packet 989
+cwnd : 6
+received ack 987
+send packet 990
+cwnd : 7
+packet 991 is lost
+received ack 988
+cwnd : 8
+received ack 990
+packet 992 is lost
+cwnd : 9
+send packet 984
+received ack 984
+packet 986 is lost
+packet 989 is lost
+send packet 991
+send packet 992
+received ack 991
+received ack 992
+packet 986 is lost
+send packet 989
+send packet 986
+received ack 986
+packet 989 is lost
+send packet 989
+received ack 989
+packet 993 is lost
+cwnd : 2
+send packet 994
+cwnd : 2
+send packet 993
+send packet 994
+received ack 993
+received ack 994
+send packet 995
+cwnd : 2
+received ack 995
+send packet 996
+cwnd : 3
+send packet 997
+cwnd : 3
+send packet 998
+cwnd : 4
+send packet 999
+cwnd : 4
+received ack 998
+packet 1000 is lost
+cwnd : 5
+packet 996 is lost
+packet 997 is lost
+send packet 999
+received ack 999
+send packet 1000
+packet 996 is lost
+send packet 997
+packet 1000 is lost
+send packet 996
+send packet 997
+received ack 996
+send packet 1000
+received ack 1000
+send packet 997
+send packet 997
+send packet 997
+send packet 997
+send packet 997
+send packet 997
+send packet 997
+send packet 997
+received ack 997
+received ack 997
+packet 1001 is lost
+cwnd : 2
+send packet 1002
+cwnd : 2
+received ack 997
+received ack 1002
+packet 1003 is lost
+cwnd : 3
+send packet 1001
+send packet 1003
+received ack 1003
+send packet 1001
+send packet 1001
+received ack 1001
+send packet 1004
+cwnd : 2
+send packet 1005
+cwnd : 2
+received ack 1005
+send packet 1006
+cwnd : 3
+packet 1004 is lost
+send packet 1006
+received ack 1006
+send packet 1004
+packet 1004 is lost
+send packet 1004
+send packet 1004
+received ack 1004
+send packet 1004
+received ack 1007
+send packet 1007
+cwnd : 2
+send packet 1008
+cwnd : 2
+send packet 1009
+cwnd : 3
+send packet 1010
+cwnd : 3
+received ack 1010
+send packet 1011
+cwnd : 4
+received ack 1011
+packet 1012 is lost
+cwnd : 5
+send packet 1008
+packet 1009 is lost
+received ack 1008
+send packet 1012
+send packet 1009
+send packet 1012
+send packet 1009
+received ack 1009
+send packet 1013
+cwnd : 2
+send packet 1012
+send packet 1013
+packet 1012 is lost
+received ack 1013
+send packet 1012
+received ack 1012
+send packet 1014
+cwnd : 2
+send packet 1015
+cwnd : 2
+received ack 1015
+packet 1016 is lost
+cwnd : 3
+send packet 1014
+send packet 1016
+received ack 1014
+received ack 1016
+send packet 1017
+cwnd : 3
+packet 1018 is lost
+cwnd : 3
+packet 1019 is lost
+cwnd : 3
+send packet 1017
+send packet 1018
+send packet 1019
+received ack 1018
+received ack 1019
+send packet 1017
+received ack 1017
+packet 1020 is lost
+cwnd : 2
+packet 1021 is lost
+cwnd : 2
+send packet 1020
+send packet 1021
+received ack 1020
+send packet 1022
+cwnd : 2
+received ack 1021
+send packet 1023
+cwnd : 3
+send packet 1024
+received ack 1022
+cwnd : 3
+received ack 1023
+received ack 1024
+send packet 1025
+cwnd : 5
+packet 1026 is lost
+cwnd : 5
+send packet 1027
+cwnd : 5
+packet 1028 is lost
+cwnd : 5
+received ack 1025
+send packet 1029
+cwnd : 7
+packet 1030 is lost
+cwnd : 7
+packet 1031 is lost
+cwnd : 7
+send packet 1032
+cwnd : 7
+received ack 1029
+packet 1033 is lost
+received ack 1032
+cwnd : 8
+send packet 1034
+cwnd : 9
+received ack 1034
+packet 1035 is lost
+cwnd : 10
+send packet 1035
+send packet 1026
+send packet 1027
+send packet 1028
+packet 1030 is lost
+packet 1031 is lost
+send packet 1033
+received ack 1035
+received ack 1026
+received ack 1027
+received ack 1033
+packet 1028 is lost
+send packet 1030
+packet 1031 is lost
+packet 1028 is lost
+send packet 1030
+send packet 1031
+received ack 1030
+received ack 1031
+send packet 1028
+received ack 1028
+packet 1036 is lost
+cwnd : 2
+send packet 1037
+cwnd : 2
+send packet 1036
+send packet 1037
+received ack 1037
+send packet 1036
+received ack 1036
+send packet 1038
+cwnd : 2
+send packet 1039
+cwnd : 2
+received ack 1038
+send packet 1040
+cwnd : 3
+send packet 1041
+cwnd : 3
+received ack 1040
+received ack 1041
+send packet 1042
+cwnd : 5
+send packet 1043
+cwnd : 5
+received ack 1042
+packet 1044 is lost
+cwnd : 6
+send packet 1039
+received ack 1039
+packet 1043 is lost
+packet 1045 is lost
+cwnd : 3
+send packet 1044
+send packet 1043
+packet 1045 is lost
+received ack 1043
+send packet 1044
+received ack 1044
+send packet 1046
+cwnd : 2
+send packet 1045
+send packet 1046
+packet 1045 is lost
+packet 1046 is lost
+received ack 1045
+send packet 1047
+cwnd : 2
+send packet 1046
+received ack 1046
+packet 1047 is lost
+send packet 1047
+received ack 1047
+send packet 1048
+cwnd : 2
+packet 1049 is lost
+cwnd : 2
+received ack 1048
+packet 1050 is lost
+cwnd : 3
+send packet 1051
+cwnd : 3
+received ack 1051
+packet 1052 is lost
+cwnd : 4
+send packet 1049
+received ack 1049
+send packet 1053
+cwnd : 4
+packet 1050 is lost
+send packet 1052
+received ack 1052
+send packet 1053
+send packet 1050
+received ack 1053
+received ack 1050
+send packet 1054
+cwnd : 3
+packet 1055 is lost
+cwnd : 3
+send packet 1056
+cwnd : 3
+received ack 1054
+packet 1057 is lost
+cwnd : 4
+send packet 1058
+cwnd : 4
+received ack 1058
+send packet 1059
+cwnd : 5
+received ack 1059
+send packet 1060
+cwnd : 6
+received ack 1060
+send packet 1061
+cwnd : 7
+send packet 1061
+send packet 1055
+send packet 1056
+send packet 1057
+received ack 1056
+received ack 1057
+packet 1061 is lost
+send packet 1055
+received ack 1055
+send packet 1062
+cwnd : 2
+received ack 1062
+send packet 1063
+cwnd : 3
+send packet 1061
+received ack 1061
+packet 1064 is lost
+cwnd : 2
+send packet 1063
+received ack 1063
+packet 1065 is lost
+cwnd : 2
+send packet 1064
+received ack 1064
+send packet 1066
+cwnd : 2
+received ack 1066
+send packet 1067
+cwnd : 3
+received ack 1067
+send packet 1068
+cwnd : 4
+received ack 1068
+send packet 1069
+cwnd : 5
+received ack 1069
+send packet 1070
+cwnd : 6
+received ack 1070
+packet 1071 is lost
+cwnd : 7
+send packet 1071
+send packet 1065
+received ack 1071
+received ack 1065
+packet 1072 is lost
+cwnd : 3
+send packet 1073
+cwnd : 3
+send packet 1074
+cwnd : 3
+received ack 1073
+received ack 1074
+send packet 1075
+cwnd : 4
+received ack 1075
+send packet 1076
+cwnd : 5
+received ack 1076
+send packet 1077
+cwnd : 6
+received ack 1077
+send packet 1078
+cwnd : 7
+received ack 1078
+send packet 1079
+cwnd : 8
+send packet 1080
+cwnd : 9
+received ack 1080
+send packet 1081
+cwnd : 10
+received ack 1081
+packet 1082 is lost
+cwnd : 11
+packet 1079 is lost
+send packet 1082
+send packet 1072
+received ack 1072
+send packet 1079
+send packet 1082
+received ack 1079
+send packet 1083
+cwnd : 2
+received ack 1083
+packet 1084 is lost
+cwnd : 3
+send packet 1082
+received ack 1082
+send packet 1085
+cwnd : 2
+received ack 1085
+send packet 1086
+cwnd : 3
+send packet 1084
+received ack 1086
+send packet 1084
+received ack 1084
+packet 1087 is lost
+cwnd : 2
+send packet 1088
+cwnd : 2
+received ack 1088
+send packet 1089
+cwnd : 3
+received ack 1089
+send packet 1090
+cwnd : 4
+received ack 1090
+send packet 1091
+cwnd : 5
+send packet 1087
+received ack 1087
+send packet 1092
+cwnd : 4
+send packet 1093
+cwnd : 4
+send packet 1094
+cwnd : 4
+received ack 1092
+packet 1095 is lost
+received ack 1093
+cwnd : 5
+packet 1096 is lost
+cwnd : 6
+send packet 1094
+send packet 1095
+send packet 1096
+send packet 1091
+received ack 1094
+received ack 1095
+received ack 1096
+received ack 1091
+packet 1097 is lost
+cwnd : 5
+send packet 1098
+cwnd : 5
+send packet 1099
+cwnd : 5
+packet 1100 is lost
+cwnd : 5
+send packet 1101
+cwnd : 5
+received ack 1099
+received ack 1101
+send packet 1102
+cwnd : 6
+packet 1103 is lost
+cwnd : 7
+received ack 1102
+send packet 1104
+cwnd : 8
+send packet 1097
+send packet 1098
+packet 1100 is lost
+received ack 1098
+packet 1103 is lost
+send packet 1104
+received ack 1104
+send packet 1097
+send packet 1100
+received ack 1100
+packet 1103 is lost
+send packet 1097
+packet 1103 is lost
+send packet 1097
+send packet 1103
+received ack 1103
+send packet 1097
+received ack 1097
+send packet 1105
+cwnd : 2
+send packet 1106
+cwnd : 2
+received ack 1105
+received ack 1106
+send packet 1107
+cwnd : 3
+send packet 1108
+cwnd : 3
+packet 1109 is lost
+received ack 1107
+cwnd : 4
+send packet 1110
+cwnd : 4
+received ack 1108
+send packet 1111
+cwnd : 5
+packet 1112 is lost
+cwnd : 5
+received ack 1110
+received ack 1111
+packet 1113 is lost
+cwnd : 8
+send packet 1114
+cwnd : 8
+send packet 1115
+cwnd : 8
+packet 1116 is lost
+cwnd : 8
+received ack 1114
+send packet 1117
+cwnd : 9
+received ack 1115
+received ack 1117
+packet 1118 is lost
+cwnd : 10
+send packet 1119
+cwnd : 11
+received ack 1119
+packet 1120 is lost
+cwnd : 12
+send packet 1112
+packet 1113 is lost
+received ack 1112
+packet 1116 is lost
+send packet 1118
+send packet 1120
+send packet 1109
+received ack 1120
+packet 1113 is lost
+send packet 1116
+send packet 1118
+packet 1109 is lost
+received ack 1116
+received ack 1118
+packet 1109 is lost
+packet 1113 is lost
+packet 1109 is lost
+send packet 1113
+packet 1109 is lost
+packet 1113 is lost
+send packet 1109
+send packet 1113
+received ack 1109
+packet 1113 is lost
+send packet 1113
+received ack 1113
+packet 1121 is lost
+cwnd : 2
+packet 1122 is lost
+cwnd : 2
+send packet 1121
+send packet 1122
+received ack 1121
+packet 1123 is lost
+cwnd : 2
+received ack 1122
+send packet 1124
+cwnd : 3
+packet 1125 is lost
+cwnd : 3
+received ack 1124
+send packet 1126
+cwnd : 4
+received ack 1126
+send packet 1127
+cwnd : 5
+received ack 1127
+send packet 1128
+cwnd : 6
+packet 1128 is lost
+send packet 1123
+send packet 1125
+received ack 1123
+packet 1128 is lost
+send packet 1125
+send packet 1128
+send packet 1125
+received ack 1128
+send packet 1125
+received ack 1125
+packet 1129 is lost
+cwnd : 2
+send packet 1130
+cwnd : 2
+received ack 1130
+send packet 1131
+cwnd : 3
+received ack 1131
+send packet 1132
+cwnd : 4
+packet 1129 is lost
+send packet 1132
+received ack 1132
+packet 1129 is lost
+send packet 1129
+received ack 1129
+packet 1133 is lost
+cwnd : 2
+send packet 1134
+cwnd : 2
+send packet 1133
+send packet 1134
+received ack 1133
+received ack 1134
+packet 1135 is lost
+cwnd : 2
+send packet 1136
+cwnd : 3
+packet 1137 is lost
+cwnd : 3
+packet 1135 is lost
+send packet 1137
+received ack 1137
+send packet 1136
+received ack 1136
+send packet 1135
+send packet 1135
+received ack 1135
+received ack 1138
+send packet 1138
+cwnd : 2
+send packet 1139
+cwnd : 2
+received ack 1139
+packet 1140 is lost
+cwnd : 4
+send packet 1141
+cwnd : 4
+send packet 1142
+cwnd : 4
+packet 1143 is lost
+received ack 1141
+cwnd : 4
+received ack 1142
+send packet 1144
+cwnd : 5
+received ack 1144
+send packet 1145
+cwnd : 6
+send packet 1146
+cwnd : 7
+received ack 1146
+packet 1147 is lost
+cwnd : 8
+send packet 1140
+send packet 1143
+send packet 1145
+received ack 1145
+send packet 1147
+send packet 1140
+send packet 1143
+send packet 1147
+received ack 1147
+packet 1140 is lost
+send packet 1143
+packet 1140 is lost
+send packet 1143
+send packet 1140
+received ack 1140
+send packet 1143
+received ack 1143
+send packet 1148
+cwnd : 2
+send packet 1149
+cwnd : 2
+received ack 1149
+packet 1150 is lost
+cwnd : 3
+send packet 1148
+received ack 1148
+send packet 1151
+cwnd : 2
+received ack 1151
+send packet 1150
+received ack 1150
+packet 1152 is lost
+cwnd : 2
+send packet 1153
+cwnd : 2
+received ack 1153
+packet 1154 is lost
+cwnd : 3
+send packet 1152
+packet 1154 is lost
+send packet 1152
+send packet 1154
+received ack 1154
+send packet 1152
+received ack 1152
+received ack 1155
+send packet 1155
+cwnd : 2
+send packet 1156
+cwnd : 2
+send packet 1157
+cwnd : 3
+packet 1158 is lost
+cwnd : 3
+received ack 1156
+packet 1159 is lost
+cwnd : 4
+send packet 1160
+received ack 1157
+cwnd : 4
+send packet 1161
+received ack 1160
+cwnd : 5
+packet 1162 is lost
+cwnd : 5
+received ack 1161
+send packet 1163
+cwnd : 6
+received ack 1163
+send packet 1164
+cwnd : 7
+received ack 1164
+send packet 1165
+cwnd : 8
+received ack 1165
+send packet 1166
+cwnd : 9
+packet 1167 is lost
+received ack 1166
+cwnd : 10
+packet 1168 is lost
+cwnd : 11
+packet 1159 is lost
+send packet 1162
+send packet 1158
+received ack 1162
+received ack 1158
+send packet 1167
+packet 1168 is lost
+received ack 1167
+send packet 1159
+received ack 1159
+packet 1169 is lost
+cwnd : 2
+send packet 1168
+received ack 1168
+packet 1170 is lost
+cwnd : 2
+send packet 1169
+received ack 1169
+packet 1171 is lost
+cwnd : 2
+send packet 1170
+packet 1171 is lost
+packet 1170 is lost
+packet 1171 is lost
+packet 1170 is lost
+send packet 1171
+packet 1170 is lost
+send packet 1171
+received ack 1171
+send packet 1170
+send packet 1170
+send packet 1170
+send packet 1170
+received ack 1170
+send packet 1172
+cwnd : 2
+send packet 1173
+cwnd : 2
+received ack 1173
+send packet 1174
+cwnd : 3
+send packet 1172
+send packet 1174
+received ack 1174
+send packet 1172
+received ack 1172
+packet 1175 is lost
+cwnd : 2
+packet 1176 is lost
+cwnd : 2
+send packet 1175
+send packet 1176
+received ack 1176
+packet 1175 is lost
+packet 1175 is lost
+send packet 1175
+received ack 1175
+packet 1177 is lost
+cwnd : 2
+send packet 1178
+cwnd : 2
+received ack 1178
+send packet 1179
+cwnd : 3
+received ack 1179
+send packet 1180
+cwnd : 4
+received ack 1180
+packet 1181 is lost
+cwnd : 5
+send packet 1177
+received ack 1177
+send packet 1182
+cwnd : 4
+packet 1183 is lost
+cwnd : 4
+packet 1184 is lost
+cwnd : 4
+send packet 1181
+received ack 1181
+send packet 1185
+cwnd : 4
+received ack 1185
+send packet 1186
+cwnd : 5
+received ack 1186
+packet 1187 is lost
+cwnd : 6
+send packet 1183
+send packet 1184
+send packet 1187
+packet 1182 is lost
+received ack 1187
+send packet 1183
+send packet 1184
+send packet 1182
+received ack 1183
+send packet 1184
+send packet 1182
+received ack 1184
+send packet 1182
+received ack 1182
+packet 1188 is lost
+cwnd : 2
+packet 1189 is lost
+cwnd : 2
+packet 1188 is lost
+packet 1189 is lost
+send packet 1188
+send packet 1189
+received ack 1188
+send packet 1190
+cwnd : 2
+received ack 1189
+received ack 1190
+send packet 1191
+cwnd : 3
+packet 1192 is lost
+cwnd : 3
+received ack 1191
+send packet 1193
+cwnd : 4
+send packet 1194
+cwnd : 4
+received ack 1193
+send packet 1195
+cwnd : 5
+packet 1196 is lost
+cwnd : 5
+received ack 1194
+send packet 1197
+cwnd : 6
+send packet 1198
+cwnd : 7
+received ack 1198
+send packet 1199
+cwnd : 8
+received ack 1199
+packet 1200 is lost
+cwnd : 9
+send packet 1195
+packet 1196 is lost
+packet 1192 is lost
+send packet 1197
+send packet 1200
+send packet 1195
+packet 1196 is lost
+received ack 1195
+send packet 1197
+packet 1192 is lost
+received ack 1197
+send packet 1200
+received ack 1200
+send packet 1196
+received ack 1196
+send packet 1192
+received ack 1192
+send packet 1201
+cwnd : 2
+send packet 1202
+cwnd : 2
+received ack 1201
+send packet 1203
+cwnd : 3
+send packet 1204
+cwnd : 3
+received ack 1203
+send packet 1205
+cwnd : 4
+received ack 1204
+send packet 1206
+cwnd : 5
+received ack 1205
+send packet 1207
+cwnd : 6
+received ack 1206
+send packet 1208
+cwnd : 7
+received ack 1207
+packet 1209 is lost
+cwnd : 8
+received ack 1208
+send packet 1210
+cwnd : 9
+received ack 1210
+send packet 1211
+cwnd : 10
+packet 1202 is lost
+send packet 1209
+received ack 1209
+send packet 1211
+send packet 1202
+received ack 1202
+send packet 1212
+cwnd : 2
+received ack 1212
+send packet 1213
+cwnd : 3
+send packet 1211
+received ack 1211
+send packet 1214
+cwnd : 2
+received ack 1214
+send packet 1215
+cwnd : 3
+received ack 1215
+send packet 1216
+cwnd : 4
+send packet 1213
+received ack 1213
+send packet 1217
+cwnd : 4
+packet 1218 is lost
+cwnd : 4
+packet 1219 is lost
+cwnd : 4
+received ack 1217
+send packet 1220
+cwnd : 5
+send packet 1216
+received ack 1216
+packet 1221 is lost
+cwnd : 4
+send packet 1218
+send packet 1219
+received ack 1218
+send packet 1220
+received ack 1219
+send packet 1222
+cwnd : 3
+received ack 1220
+send packet 1223
+cwnd : 4
+packet 1224 is lost
+cwnd : 4
+received ack 1222
+packet 1225 is lost
+cwnd : 5
+received ack 1223
+send packet 1226
+cwnd : 6
+received ack 1226
+send packet 1227
+cwnd : 7
+send packet 1227
+send packet 1221
+send packet 1224
+send packet 1225
+received ack 1224
+received ack 1225
+send packet 1227
+packet 1221 is lost
+received ack 1227
+send packet 1221
+received ack 1221
+send packet 1228
+cwnd : 2
+send packet 1229
+cwnd : 2
+send packet 1228
+send packet 1229
+received ack 1228
+received ack 1229
+send packet 1230
+cwnd : 3
+send packet 1231
+cwnd : 3
+send packet 1232
+cwnd : 3
+received ack 1230
+send packet 1233
+cwnd : 4
+send packet 1234
+cwnd : 4
+received ack 1231
+send packet 1235
+cwnd : 5
+packet 1236 is lost
+cwnd : 5
+received ack 1232
+received ack 1233
+send packet 1237
+cwnd : 6
+packet 1238 is lost
+cwnd : 6
+received ack 1235
+send packet 1239
+cwnd : 7
+send packet 1240
+cwnd : 7
+received ack 1237
+send packet 1241
+cwnd : 8
+received ack 1241
+send packet 1242
+cwnd : 10
+send packet 1243
+cwnd : 10
+received ack 1242
+packet 1244 is lost
+received ack 1243
+cwnd : 11
+packet 1245 is lost
+cwnd : 12
+packet 1238 is lost
+send packet 1239
+send packet 1240
+packet 1244 is lost
+packet 1245 is lost
+send packet 1234
+send packet 1236
+received ack 1240
+send packet 1238
+send packet 1239
+packet 1244 is lost
+packet 1245 is lost
+packet 1234 is lost
+send packet 1236
+received ack 1239
+received ack 1236
+packet 1238 is lost
+send packet 1244
+packet 1245 is lost
+send packet 1234
+received ack 1244
+received ack 1234
+packet 1238 is lost
+packet 1245 is lost
+send packet 1238
+send packet 1245
+received ack 1238
+send packet 1246
+cwnd : 2
+received ack 1246
+send packet 1247
+cwnd : 3
+received ack 1247
+packet 1248 is lost
+cwnd : 4
+send packet 1245
+received ack 1245
+packet 1249 is lost
+cwnd : 4
+send packet 1250
+cwnd : 4
+send packet 1251
+cwnd : 4
+received ack 1250
+send packet 1248
+received ack 1251
+send packet 1252
+cwnd : 5
+received ack 1252
+packet 1253 is lost
+cwnd : 6
+send packet 1253
+packet 1248 is lost
+send packet 1249
+received ack 1253
+received ack 1249
+send packet 1248
+send packet 1248
+received ack 1248
+packet 1254 is lost
+cwnd : 2
+send packet 1255
+cwnd : 2
+send packet 1254
+send packet 1255
+received ack 1255
+send packet 1254
+received ack 1254
+packet 1256 is lost
+cwnd : 2
+send packet 1257
+cwnd : 2
+send packet 1256
+send packet 1257
+received ack 1257
+send packet 1256
+send packet 1256
+packet 1256 is lost
+send packet 1256
+send packet 1256
+received ack 1256
+packet 1258 is lost
+cwnd : 2
+send packet 1259
+cwnd : 2
+received ack 1259
+send packet 1260
+cwnd : 3
+received ack 1260
+packet 1261 is lost
+cwnd : 4
+send packet 1258
+received ack 1258
+send packet 1262
+cwnd : 4
+packet 1263 is lost
+cwnd : 4
+packet 1264 is lost
+cwnd : 4
+received ack 1262
+send packet 1261
+received ack 1261
+packet 1265 is lost
+cwnd : 4
+packet 1266 is lost
+cwnd : 4
+send packet 1263
+send packet 1264
+received ack 1263
+send packet 1265
+send packet 1266
+received ack 1265
+received ack 1266
+packet 1264 is lost
+send packet 1264
+packet 1264 is lost
+send packet 1264
+received ack 1264
+send packet 1267
+cwnd : 2
+packet 1268 is lost
+cwnd : 2
+send packet 1267
+packet 1268 is lost
+send packet 1267
+packet 1268 is lost
+send packet 1267
+send packet 1268
+received ack 1267
+packet 1269 is lost
+cwnd : 2
+packet 1268 is lost
+send packet 1269
+received ack 1269
+send packet 1268
+received ack 1268
+send packet 1270
+cwnd : 2
+send packet 1271
+cwnd : 2
+received ack 1270
+packet 1272 is lost
+cwnd : 3
+send packet 1273
+cwnd : 3
+send packet 1271
+send packet 1272
+send packet 1273
+received ack 1271
+received ack 1272
+send packet 1274
+cwnd : 3
+send packet 1275
+cwnd : 3
+received ack 1273
+send packet 1276
+cwnd : 4
+send packet 1277
+cwnd : 4
+received ack 1274
+send packet 1278
+cwnd : 5
+send packet 1279
+cwnd : 5
+received ack 1275
+packet 1280 is lost
+cwnd : 6
+received ack 1276
+send packet 1281
+cwnd : 6
+packet 1276 is lost
+send packet 1277
+send packet 1278
+send packet 1279
+send packet 1280
+packet 1281 is lost
+received ack 1277
+received ack 1278
+received ack 1281
+send packet 1282
+cwnd : 4
+received ack 1277
+packet 1283 is lost
+cwnd : 5
+received ack 1278
+received ack 1280
+send packet 1284
+cwnd : 6
+received ack 1282
+packet 1285 is lost
+cwnd : 7
+received ack 1284
+packet 1286 is lost
+cwnd : 8
+send packet 1283
+send packet 1285
+received ack 1286
+send packet 1286
+send packet 1279
+received ack 1279
+send packet 1283
+send packet 1285
+received ack 1283
+send packet 1285
+received ack 1285
+packet 1287 is lost
+cwnd : 2
+packet 1288 is lost
+cwnd : 2
+send packet 1287
+send packet 1288
+received ack 1287
+received ack 1288
+packet 1289 is lost
+cwnd : 3
+packet 1290 is lost
+cwnd : 3
+send packet 1291
+cwnd : 3
+received ack 1291
+send packet 1292
+cwnd : 4
+received ack 1292
+send packet 1293
+cwnd : 5
+send packet 1289
+send packet 1290
+packet 1293 is lost
+send packet 1289
+send packet 1290
+received ack 1289
+received ack 1290
+send packet 1294
+cwnd : 3
+send packet 1295
+cwnd : 3
+received ack 1294
+packet 1293 is lost
+received ack 1295
+send packet 1296
+cwnd : 4
+send packet 1293
+send packet 1296
+received ack 1293
+received ack 1296
+send packet 1297
+cwnd : 3
+packet 1298 is lost
+cwnd : 3
+received ack 1297
+send packet 1299
+cwnd : 3
+received ack 1299
+send packet 1300
+cwnd : 4
+send packet 1301
+cwnd : 4
+send packet 1302
+cwnd : 5
+received ack 1302
+send packet 1303
+cwnd : 6
+packet 1301 is lost
+send packet 1298
+packet 1300 is lost
+received ack 1298
+send packet 1303
+send packet 1301
+send packet 1300
+received ack 1301
+received ack 1300
+packet 1304 is lost
+cwnd : 3
+send packet 1305
+cwnd : 3
+received ack 1305
+packet 1306 is lost
+cwnd : 4
+send packet 1303
+received ack 1303
+packet 1307 is lost
+cwnd : 4
+send packet 1307
+send packet 1304
+send packet 1306
+received ack 1304
+send packet 1307
+packet 1306 is lost
+send packet 1307
+send packet 1306
+received ack 1306
+send packet 1308
+cwnd : 2
+received ack 1308
+send packet 1309
+cwnd : 3
+received ack 1309
+send packet 1310
+cwnd : 4
+received ack 1310
+packet 1311 is lost
+cwnd : 5
+send packet 1307
+received ack 1307
+packet 1311 is lost
+packet 1312 is lost
+cwnd : 2
+packet 1311 is lost
+send packet 1312
+received ack 1312
+send packet 1311
+received ack 1311
+send packet 1313
+cwnd : 2
+send packet 1314
+cwnd : 2
+send packet 1313
+send packet 1314
+received ack 1314
+send packet 1313
+received ack 1313
+packet 1315 is lost
+cwnd : 2
+send packet 1316
+cwnd : 2
+send packet 1315
+send packet 1316
+received ack 1315
+send packet 1317
+cwnd : 2
+received ack 1316
+send packet 1318
+cwnd : 3
+packet 1319 is lost
+cwnd : 3
+received ack 1318
+packet 1320 is lost
+cwnd : 4
+packet 1320 is lost
+send packet 1317
+packet 1319 is lost
+send packet 1320
+send packet 1317
+packet 1319 is lost
+received ack 1320
+packet 1317 is lost
+send packet 1319
+received ack 1319
+send packet 1317
+received ack 1317
+packet 1321 is lost
+cwnd : 2
+packet 1322 is lost
+cwnd : 2
+send packet 1322
+packet 1321 is lost
+received ack 1322
+send packet 1321
+received ack 1321
+send packet 1323
+cwnd : 2
+send packet 1324
+cwnd : 2
+received ack 1324
+send packet 1323
+received ack 1323
+send packet 1325
+cwnd : 2
+send packet 1326
+cwnd : 2
+received ack 1325
+packet 1327 is lost
+received ack 1326
+cwnd : 3
+send packet 1328
+cwnd : 3
+packet 1329 is lost
+cwnd : 4
+packet 1330 is lost
+cwnd : 4
+received ack 1328
+packet 1331 is lost
+cwnd : 5
+packet 1327 is lost
+send packet 1329
+packet 1330 is lost
+received ack 1329
+send packet 1331
+received ack 1331
+send packet 1327
+received ack 1327
+packet 1330 is lost
+send packet 1330
+send packet 1330
+received ack 1330
+packet 1332 is lost
+cwnd : 2
+packet 1333 is lost
+cwnd : 2
+send packet 1332
+packet 1333 is lost
+received ack 1332
+send packet 1334
+cwnd : 2
+send packet 1333
+send packet 1334
+send packet 1333
+received ack 1333
+packet 1335 is lost
+cwnd : 2
+send packet 1334
+packet 1335 is lost
+packet 1334 is lost
+send packet 1335
+packet 1334 is lost
+received ack 1335
+packet 1334 is lost
+send packet 1334
+received ack 1334
+send packet 1336
+cwnd : 2
+send packet 1337
+cwnd : 2
+received ack 1336
+packet 1338 is lost
+cwnd : 3
+send packet 1339
+cwnd : 3
+received ack 1337
+send packet 1340
+cwnd : 4
+send packet 1341
+cwnd : 4
+received ack 1339
+send packet 1342
+cwnd : 5
+received ack 1341
+packet 1343 is lost
+cwnd : 6
+send packet 1342
+send packet 1343
+send packet 1338
+send packet 1340
+received ack 1342
+send packet 1343
+send packet 1338
+send packet 1340
+received ack 1343
+received ack 1338
+received ack 1340
+packet 1344 is lost
+cwnd : 4
+packet 1345 is lost
+cwnd : 4
+send packet 1346
+cwnd : 4
+send packet 1347
+cwnd : 4
+received ack 1347
+packet 1348 is lost
+cwnd : 5
+send packet 1344
+send packet 1345
+send packet 1346
+received ack 1344
+send packet 1348
+received ack 1345
+send packet 1346
+received ack 1346
+packet 1348 is lost
+send packet 1348
+received ack 1348
+send packet 1349
+cwnd : 2
+packet 1350 is lost
+cwnd : 2
+send packet 1349
+send packet 1350
+received ack 1349
+received ack 1350
+send packet 1351
+cwnd : 2
+send packet 1350
+received ack 1351
+send packet 1352
+cwnd : 2
+packet 1351 is lost
+received ack 1350
+send packet 1353
+cwnd : 2
+received ack 1352
+packet 1354 is lost
+cwnd : 3
+packet 1355 is lost
+cwnd : 3
+packet 1353 is lost
+send packet 1354
+send packet 1355
+received ack 1354
+received ack 1355
+send packet 1353
+received ack 1353
+send packet 1356
+cwnd : 2
+send packet 1357
+cwnd : 2
+received ack 1356
+received ack 1357
+send packet 1358
+cwnd : 3
+send packet 1359
+cwnd : 3
+packet 1360 is lost
+received ack 1359
+cwnd : 4
+packet 1361 is lost
+cwnd : 4
+send packet 1362
+cwnd : 5
+send packet 1358
+received ack 1358
+send packet 1360
+send packet 1361
+packet 1362 is lost
+received ack 1361
+send packet 1360
+packet 1362 is lost
+received ack 1360
+send packet 1363
+cwnd : 2
+received ack 1363
+packet 1364 is lost
+cwnd : 3
+send packet 1362
+received ack 1362
+send packet 1365
+cwnd : 2
+send packet 1364
+received ack 1364
+send packet 1366
+cwnd : 2
+received ack 1366
+send packet 1367
+cwnd : 3
+send packet 1365
+received ack 1365
+packet 1368 is lost
+cwnd : 2
+packet 1367 is lost
+send packet 1368
+packet 1367 is lost
+send packet 1368
+send packet 1367
+received ack 1367
+packet 1369 is lost
+cwnd : 2
+send packet 1368
+send packet 1369
+received ack 1369
+send packet 1368
+send packet 1368
+packet 1368 is lost
+send packet 1368
+received ack 1368
+send packet 1370
+cwnd : 2
+packet 1371 is lost
+cwnd : 2
+received ack 1370
+send packet 1372
+cwnd : 3
+packet 1373 is lost
+cwnd : 3
+received ack 1372
+send packet 1374
+cwnd : 4
+send packet 1371
+received ack 1371
+send packet 1375
+cwnd : 4
+send packet 1376
+cwnd : 4
+received ack 1375
+send packet 1377
+received ack 1376
+cwnd : 5
+received ack 1377
+send packet 1378
+cwnd : 6
+received ack 1378
+send packet 1374
+send packet 1373
+received ack 1373
+send packet 1374
+received ack 1374
+send packet 1379
+cwnd : 2
+send packet 1380
+cwnd : 2
+received ack 1379
+received ack 1380
+send packet 1381
+cwnd : 3
+packet 1382 is lost
+cwnd : 3
+received ack 1381
+send packet 1383
+cwnd : 4
+send packet 1384
+cwnd : 4
+send packet 1385
+cwnd : 5
+packet 1386 is lost
+cwnd : 5
+send packet 1382
+received ack 1382
+send packet 1383
+send packet 1384
+send packet 1385
+packet 1386 is lost
+send packet 1383
+send packet 1384
+send packet 1385
+send packet 1386
+received ack 1383
+received ack 1385
+received ack 1386
+packet 1387 is lost
+cwnd : 4
+send packet 1384
+send packet 1387
+received ack 1384
+send packet 1388
+cwnd : 2
+received ack 1387
+packet 1389 is lost
+received ack 1388
+cwnd : 3
+packet 1390 is lost
+cwnd : 3
+send packet 1391
+cwnd : 4
+send packet 1392
+cwnd : 4
+received ack 1391
+send packet 1393
+cwnd : 5
+received ack 1393
+send packet 1394
+cwnd : 6
+received ack 1394
+send packet 1395
+cwnd : 7
+received ack 1395
+send packet 1396
+cwnd : 8
+received ack 1396
+send packet 1397
+cwnd : 9
+received ack 1397
+send packet 1398
+cwnd : 10
+received ack 1398
+send packet 1399
+cwnd : 11
+received ack 1399
+send packet 1389
+packet 1390 is lost
+send packet 1392
+send packet 1389
+send packet 1390
+send packet 1392
+received ack 1389
+received ack 1390
+received ack 1392
+packet 1400 is lost
+cwnd : 4
+send packet 1401
+cwnd : 4
+packet 1402 is lost
+cwnd : 4
+send packet 1403
+cwnd : 4
+received ack 1401
+send packet 1404
+cwnd : 5
+received ack 1404
+send packet 1405
+cwnd : 6
+send packet 1402
+packet 1403 is lost
+send packet 1400
+send packet 1405
+received ack 1405
+send packet 1403
+send packet 1402
+send packet 1400
+received ack 1403
+received ack 1402
+received ack 1400
+send packet 1406
+cwnd : 4
+send packet 1407
+cwnd : 4
+send packet 1408
+cwnd : 4
+send packet 1409
+cwnd : 4
+received ack 1406
+packet 1410 is lost
+cwnd : 5
+send packet 1411
+cwnd : 5
+received ack 1407
+send packet 1412
+cwnd : 6
+packet 1413 is lost
+cwnd : 6
+received ack 1408
+packet 1414 is lost
+received ack 1411
+cwnd : 7
+packet 1415 is lost
+cwnd : 7
+received ack 1412
+send packet 1416
+cwnd : 8
+received ack 1416
+send packet 1417
+cwnd : 9
+received ack 1417
+send packet 1418
+cwnd : 10
+packet 1419 is lost
+received ack 1418
+cwnd : 11
+packet 1420 is lost
+cwnd : 12
+send packet 1409
+send packet 1410
+received ack 1409
+send packet 1413
+received ack 1410
+send packet 1414
+send packet 1415
+received ack 1414
+send packet 1419
+received ack 1419
+packet 1420 is lost
+packet 1413 is lost
+packet 1415 is lost
+send packet 1420
+received ack 1420
+send packet 1413
+received ack 1413
+packet 1415 is lost
+send packet 1415
+send packet 1415
+packet 1415 is lost
+send packet 1415
+received ack 1415
+send packet 1421
+cwnd : 2
+send packet 1422
+cwnd : 2
+received ack 1422
+send packet 1423
+cwnd : 3
+packet 1423 is lost
+send packet 1421
+received ack 1421
+send packet 1424
+cwnd : 2
+received ack 1424
+send packet 1425
+cwnd : 3
+received ack 1425
+send packet 1426
+cwnd : 4
+send packet 1423
+received ack 1423
+packet 1427 is lost
+cwnd : 4
+send packet 1428
+cwnd : 4
+send packet 1429
+cwnd : 4
+received ack 1428
+send packet 1430
+cwnd : 5
+received ack 1430
+send packet 1431
+cwnd : 6
+received ack 1431
+packet 1432 is lost
+cwnd : 7
+send packet 1426
+received ack 1426
+send packet 1427
+send packet 1429
+received ack 1427
+received ack 1429
+send packet 1433
+cwnd : 3
+received ack 1433
+send packet 1434
+cwnd : 3
+packet 1435 is lost
+cwnd : 4
+received ack 1434
+send packet 1432
+send packet 1435
+send packet 1432
+received ack 1435
+received ack 1432
+packet 1436 is lost
+cwnd : 3
+send packet 1437
+cwnd : 3
+send packet 1438
+cwnd : 3
+send packet 1436
+send packet 1437
+send packet 1438
+received ack 1436
+received ack 1438
+send packet 1439
+cwnd : 3
+packet 1437 is lost
+send packet 1439
+send packet 1437
+received ack 1437
+send packet 1440
+cwnd : 2
+send packet 1439
+received ack 1439
+packet 1441 is lost
+cwnd : 2
+send packet 1440
+received ack 1440
+send packet 1442
+cwnd : 2
+send packet 1441
+received ack 1441
+send packet 1443
+cwnd : 2
+received ack 1443
+send packet 1444
+cwnd : 3
+received ack 1444
+packet 1445 is lost
+cwnd : 4
+send packet 1442
+received ack 1442
+send packet 1446
+cwnd : 4
+send packet 1447
+cwnd : 4
+packet 1448 is lost
+cwnd : 4
+received ack 1446
+send packet 1449
+cwnd : 5
+received ack 1447
+send packet 1450
+cwnd : 6
+received ack 1449
+send packet 1451
+cwnd : 7
+received ack 1450
+packet 1452 is lost
+cwnd : 8
+received ack 1451
+send packet 1453
+cwnd : 9
+send packet 1445
+received ack 1453
+received ack 1445
+send packet 1454
+cwnd : 9
+send packet 1455
+cwnd : 9
+packet 1456 is lost
+cwnd : 9
+received ack 1455
+send packet 1457
+cwnd : 10
+received ack 1457
+send packet 1458
+cwnd : 11
+received ack 1458
+send packet 1459
+cwnd : 12
+received ack 1459
+send packet 1454
+packet 1456 is lost
+received ack 1454
+packet 1448 is lost
+send packet 1452
+received ack 1452
+send packet 1456
+send packet 1448
+received ack 1448
+send packet 1456
+packet 1456 is lost
+packet 1456 is lost
+send packet 1456
+send packet 1456
+received ack 1456
+packet 1460 is lost
+cwnd : 2
+send packet 1461
+cwnd : 2
+received ack 1461
+send packet 1462
+cwnd : 3
+send packet 1460
+send packet 1462
+received ack 1460
+received ack 1462
+packet 1463 is lost
+cwnd : 3
+send packet 1464
+cwnd : 3
+send packet 1465
+cwnd : 3
+received ack 1464
+received ack 1465
+send packet 1466
+cwnd : 5
+packet 1467 is lost
+cwnd : 5
+packet 1466 is lost
+send packet 1467
+send packet 1463
+received ack 1467
+received ack 1463
+send packet 1468
+cwnd : 3
+received ack 1468
+packet 1469 is lost
+cwnd : 4
+send packet 1466
+packet 1469 is lost
+packet 1466 is lost
+send packet 1469
+received ack 1469
+send packet 1466
+received ack 1466
+send packet 1470
+cwnd : 2
+send packet 1471
+cwnd : 2
+send packet 1470
+send packet 1471
+received ack 1470
+send packet 1472
+cwnd : 2
+received ack 1472
+send packet 1473
+cwnd : 3
+received ack 1473
+send packet 1474
+cwnd : 4
+send packet 1471
+send packet 1474
+send packet 1471
+send packet 1474
+received ack 1474
+send packet 1471
+received ack 1471
+packet 1475 is lost
+cwnd : 2
+packet 1476 is lost
+cwnd : 2
+send packet 1475
+send packet 1476
+received ack 1475
+received ack 1476
+send packet 1477
+cwnd : 3
+send packet 1478
+cwnd : 3
+packet 1479 is lost
+cwnd : 3
+received ack 1477
+packet 1480 is lost
+received ack 1478
+cwnd : 4
+send packet 1481
+cwnd : 4
+send packet 1482
+cwnd : 5
+packet 1483 is lost
+cwnd : 5
+received ack 1482
+send packet 1484
+cwnd : 6
+send packet 1479
+packet 1480 is lost
+send packet 1481
+send packet 1483
+received ack 1479
+received ack 1481
+send packet 1484
+received ack 1483
+received ack 1484
+send packet 1480
+received ack 1480
+send packet 1485
+cwnd : 4
+send packet 1486
+cwnd : 4
+send packet 1487
+cwnd : 4
+send packet 1488
+cwnd : 4
+received ack 1486
+send packet 1489
+cwnd : 5
+received ack 1489
+send packet 1490
+cwnd : 6
+packet 1490 is lost
+packet 1485 is lost
+send packet 1487
+packet 1488 is lost
+received ack 1487
+send packet 1490
+send packet 1485
+packet 1488 is lost
+received ack 1490
+received ack 1485
+send packet 1488
+received ack 1488
+send packet 1491
+cwnd : 2
+send packet 1492
+cwnd : 2
+received ack 1492
+packet 1493 is lost
+cwnd : 3
+send packet 1491
+received ack 1491
+send packet 1494
+cwnd : 2
+received ack 1494
+send packet 1493
+send packet 1493
+received ack 1493
+send packet 1495
+cwnd : 2
+send packet 1496
+cwnd : 2
+received ack 1496
+packet 1497 is lost
+cwnd : 3
+send packet 1495
+received ack 1495
+send packet 1498
+cwnd : 2
+received ack 1498
+packet 1497 is lost
+send packet 1497
+received ack 1497
+packet 1499 is lost
+cwnd : 2
+send packet 1500
+cwnd : 2
+received ack 1500
+packet 1501 is lost
+cwnd : 3
+packet 1499 is lost
+send packet 1501
+received ack 1501
+packet 1499 is lost
+packet 1499 is lost
+packet 1499 is lost
+packet 1499 is lost
+send packet 1499
+received ack 1499
+send packet 1502
+cwnd : 2
+packet 1503 is lost
+cwnd : 2
+received ack 1502
+send packet 1504
+cwnd : 3
+send packet 1505
+cwnd : 3
+received ack 1505
+send packet 1506
+cwnd : 4
+received ack 1506
+packet 1507 is lost
+cwnd : 5
+packet 1503 is lost
+packet 1504 is lost
+packet 1507 is lost
+send packet 1503
+send packet 1504
+send packet 1507
+received ack 1503
+received ack 1504
+send packet 1508
+cwnd : 3
+packet 1509 is lost
+cwnd : 3
+received ack 1507
+packet 1510 is lost
+cwnd : 4
+send packet 1511
+cwnd : 4
+received ack 1511
+send packet 1512
+cwnd : 5
+received ack 1512
+send packet 1513
+cwnd : 6
+received ack 1513
+send packet 1514
+cwnd : 7
+received ack 1514
+packet 1515 is lost
+cwnd : 8
+packet 1508 is lost
+packet 1509 is lost
+send packet 1510
+received ack 1510
+send packet 1515
+received ack 1515
+packet 1508 is lost
+packet 1509 is lost
+packet 1508 is lost
+send packet 1509
+send packet 1508
+send packet 1509
+received ack 1508
+packet 1509 is lost
+packet 1509 is lost
+send packet 1509
+received ack 1509
+send packet 1516
+cwnd : 2
+send packet 1517
+cwnd : 2
+received ack 1516
+send packet 1518
+cwnd : 3
+packet 1519 is lost
+cwnd : 3
+received ack 1517
+packet 1520 is lost
+cwnd : 4
+packet 1521 is lost
+cwnd : 4
+received ack 1518
+packet 1522 is lost
+cwnd : 5
+send packet 1523
+cwnd : 5
+received ack 1523
+send packet 1524
+cwnd : 6
+received ack 1524
+send packet 1525
+cwnd : 7
+send packet 1522
+send packet 1525
+send packet 1519
+packet 1520 is lost
+send packet 1521
+received ack 1522
+received ack 1525
+received ack 1519
+received ack 1521
+packet 1520 is lost
+packet 1520 is lost
+send packet 1520
+send packet 1520
+received ack 1520
+send packet 1526
+cwnd : 2
+send packet 1527
+cwnd : 2
+received ack 1527
+send packet 1528
+cwnd : 3
+send packet 1526
+received ack 1526
+send packet 1529
+cwnd : 2
+send packet 1528
+received ack 1529
+received ack 1528
+send packet 1530
+cwnd : 3
+send packet 1531
+cwnd : 3
+packet 1532 is lost
+cwnd : 3
+received ack 1530
+packet 1533 is lost
+cwnd : 4
+packet 1534 is lost
+cwnd : 4
+send packet 1531
+send packet 1532
+send packet 1533
+send packet 1534
+received ack 1533
+received ack 1534
+send packet 1531
+send packet 1532
+send packet 1531
+received ack 1531
+send packet 1532
+received ack 1532
+send packet 1535
+cwnd : 3
+send packet 1536
+cwnd : 3
+packet 1537 is lost
+cwnd : 3
+received ack 1535
+received ack 1536
+send packet 1538
+cwnd : 4
+send packet 1539
+cwnd : 4
+received ack 1538
+send packet 1540
+cwnd : 5
+packet 1541 is lost
+cwnd : 5
+received ack 1539
+send packet 1542
+cwnd : 6
+received ack 1542
+send packet 1543
+cwnd : 8
+send packet 1544
+cwnd : 8
+received ack 1543
+received ack 1544
+send packet 1545
+cwnd : 10
+packet 1546 is lost
+cwnd : 10
+received ack 1545
+packet 1547 is lost
+cwnd : 11
+send packet 1537
+packet 1540 is lost
+send packet 1541
+send packet 1546
+packet 1547 is lost
+received ack 1537
+received ack 1541
+received ack 1546
+send packet 1547
+send packet 1540
+received ack 1547
+received ack 1540
+send packet 1548
+cwnd : 3
+send packet 1549
+cwnd : 3
+packet 1550 is lost
+cwnd : 3
+received ack 1548
+send packet 1551
+cwnd : 4
+packet 1552 is lost
+cwnd : 4
+received ack 1549
+packet 1553 is lost
+received ack 1551
+cwnd : 5
+packet 1554 is lost
+cwnd : 5
+send packet 1555
+cwnd : 6
+received ack 1555
+send packet 1556
+cwnd : 7
+received ack 1556
+send packet 1557
+cwnd : 8
+received ack 1557
+packet 1558 is lost
+cwnd : 9
+send packet 1550
+send packet 1552
+received ack 1550
+received ack 1552
+packet 1553 is lost
+send packet 1554
+send packet 1558
+send packet 1553
+packet 1554 is lost
+received ack 1553
+send packet 1558
+send packet 1554
+received ack 1554
+send packet 1559
+cwnd : 2
+received ack 1559
+send packet 1560
+cwnd : 3
+send packet 1558
+received ack 1560
+received ack 1558
+send packet 1561
+cwnd : 3
+send packet 1562
+cwnd : 3
+packet 1563 is lost
+cwnd : 3
+received ack 1562
+send packet 1564
+cwnd : 4
+received ack 1564
+send packet 1565
+cwnd : 5
+send packet 1565
+packet 1561 is lost
+send packet 1563
+received ack 1565
+received ack 1563
+send packet 1561
+received ack 1561
+send packet 1566
+cwnd : 2
+send packet 1567
+cwnd : 2
+received ack 1567
+packet 1568 is lost
+cwnd : 3
+send packet 1568
+send packet 1566
+received ack 1568
+received ack 1566
+packet 1569 is lost
+cwnd : 3
+packet 1570 is lost
+cwnd : 3
+send packet 1571
+cwnd : 3
+received ack 1571
+send packet 1572
+cwnd : 4
+packet 1570 is lost
+packet 1572 is lost
+send packet 1569
+received ack 1569
+send packet 1570
+packet 1572 is lost
+packet 1570 is lost
+send packet 1572
+received ack 1572
+send packet 1570
+received ack 1570
+send packet 1573
+cwnd : 2
+send packet 1574
+cwnd : 2
+received ack 1573
+packet 1575 is lost
+cwnd : 3
+send packet 1576
+cwnd : 3
+received ack 1574
+send packet 1577
+cwnd : 4
+send packet 1578
+cwnd : 4
+received ack 1576
+send packet 1579
+cwnd : 5
+received ack 1577
+packet 1580 is lost
+cwnd : 6
+received ack 1578
+received ack 1579
+send packet 1581
+cwnd : 7
+received ack 1581
+send packet 1582
+cwnd : 9
+send packet 1583
+cwnd : 9
+received ack 1582
+packet 1580 is lost
+send packet 1582
+send packet 1583
+send packet 1575
+received ack 1583
+received ack 1582
+received ack 1575
+send packet 1580
+received ack 1580
+packet 1584 is lost
+cwnd : 4
+send packet 1585
+cwnd : 4
+packet 1586 is lost
+cwnd : 4
+send packet 1587
+cwnd : 4
+received ack 1585
+received ack 1587
+packet 1588 is lost
+cwnd : 5
+send packet 1589
+cwnd : 6
+received ack 1589
+send packet 1590
+cwnd : 7
+send packet 1584
+send packet 1586
+received ack 1584
+send packet 1588
+received ack 1586
+packet 1590 is lost
+received ack 1588
+send packet 1591
+cwnd : 2
+received ack 1591
+send packet 1592
+cwnd : 3
+send packet 1590
+received ack 1590
+send packet 1593
+cwnd : 2
+packet 1592 is lost
+send packet 1593
+packet 1592 is lost
+packet 1593 is lost
+send packet 1592
+send packet 1593
+received ack 1593
+packet 1592 is lost
+send packet 1592
+received ack 1592
+packet 1594 is lost
+cwnd : 2
+send packet 1595
+cwnd : 2
+received ack 1595
+send packet 1596
+cwnd : 3
+received ack 1596
+send packet 1597
+cwnd : 4
+received ack 1597
+send packet 1598
+cwnd : 5
+send packet 1594
+received ack 1594
+send packet 1599
+cwnd : 4
+send packet 1600
+cwnd : 4
+send packet 1601
+cwnd : 4
+received ack 1599
+received ack 1601
+send packet 1602
+cwnd : 6
+send packet 1603
+cwnd : 6
+received ack 1602
+send packet 1598
+received ack 1603
+send packet 1604
+cwnd : 7
+received ack 1604
+packet 1605 is lost
+cwnd : 8
+send packet 1600
+received ack 1600
+packet 1598 is lost
+send packet 1605
+received ack 1605
+send packet 1598
+received ack 1598
+packet 1606 is lost
+cwnd : 4
+send packet 1607
+cwnd : 4
+send packet 1608
+cwnd : 4
+send packet 1609
+cwnd : 4
+received ack 1607
+packet 1610 is lost
+cwnd : 5
+received ack 1609
+send packet 1611
+cwnd : 6
+send packet 1606
+send packet 1608
+received ack 1606
+send packet 1610
+received ack 1610
+send packet 1611
+received ack 1611
+send packet 1608
+send packet 1608
+send packet 1608
+received ack 1608
+send packet 1612
+cwnd : 2
+send packet 1613
+cwnd : 2
+packet 1612 is lost
+send packet 1613
+send packet 1612
+packet 1613 is lost
+send packet 1612
+packet 1613 is lost
+packet 1612 is lost
+send packet 1613
+send packet 1612
+packet 1613 is lost
+received ack 1612
+received ack 1612
+send packet 1614
+cwnd : 2
+received ack 1614
+send packet 1615
+cwnd : 3
+received ack 1615
+send packet 1616
+cwnd : 4
+received ack 1616
+send packet 1617
+cwnd : 5
+received ack 1617
+packet 1618 is lost
+cwnd : 6
+send packet 1613
+send packet 1618
+received ack 1618
+send packet 1613
+received ack 1613
+send packet 1619
+cwnd : 2
+send packet 1620
+cwnd : 2
+received ack 1620
+send packet 1621
+cwnd : 3
+send packet 1619
+send packet 1621
+received ack 1621
+send packet 1619
+send packet 1619
+received ack 1619
+packet 1622 is lost
+cwnd : 2
+send packet 1623
+cwnd : 2
+received ack 1623
+packet 1624 is lost
+cwnd : 3
+packet 1622 is lost
+send packet 1624
+received ack 1624
+send packet 1622
+send packet 1622
+received ack 1622
+packet 1625 is lost
+cwnd : 2
+send packet 1626
+cwnd : 2
+received ack 1626
+send packet 1627
+cwnd : 3
+send packet 1627
+send packet 1625
+received ack 1627
+received ack 1625
+packet 1628 is lost
+cwnd : 3
+packet 1629 is lost
+cwnd : 3
+send packet 1630
+cwnd : 3
+send packet 1628
+send packet 1629
+send packet 1630
+received ack 1629
+received ack 1630
+packet 1628 is lost
+send packet 1628
+send packet 1628
+send packet 1628
+received ack 1628
+packet 1631 is lost
+cwnd : 2
+send packet 1632
+cwnd : 2
+received ack 1632
+packet 1633 is lost
+cwnd : 3
+send packet 1631
+received ack 1631
+send packet 1634
+cwnd : 2
+send packet 1633
+received ack 1634
+received ack 1633
+send packet 1635
+cwnd : 3
+send packet 1636
+cwnd : 3
+send packet 1637
+cwnd : 3
+received ack 1635
+packet 1638 is lost
+cwnd : 4
+packet 1639 is lost
+cwnd : 4
+send packet 1636
+send packet 1637
+received ack 1636
+send packet 1638
+packet 1639 is lost
+received ack 1637
+packet 1638 is lost
+send packet 1639
+send packet 1638
+send packet 1639
+packet 1638 is lost
+send packet 1639
+received ack 1639
+send packet 1638
+received ack 1638
+send packet 1640
+cwnd : 2
+packet 1641 is lost
+cwnd : 2
+packet 1640 is lost
+packet 1641 is lost
+send packet 1640
+received ack 1640
+send packet 1641
+send packet 1640
+send packet 1641
+packet 1642 is lost
+cwnd : 2
+received ack 1641
+received ack 1640
+send packet 1643
+cwnd : 3
+send packet 1644
+cwnd : 3
+received ack 1644
+packet 1645 is lost
+cwnd : 4
+send packet 1645
+send packet 1642
+packet 1643 is lost
+received ack 1645
+send packet 1642
+send packet 1643
+received ack 1642
+send packet 1643
+send packet 1643
+packet 1643 is lost
+packet 1643 is lost
+packet 1643 is lost
+send packet 1643
+received ack 1643
+packet 1646 is lost
+cwnd : 2
+packet 1647 is lost
+cwnd : 2
+send packet 1646
+send packet 1647
+received ack 1646
+send packet 1648
+cwnd : 2
+received ack 1648
+packet 1649 is lost
+cwnd : 3
+send packet 1647
+received ack 1647
+packet 1649 is lost
+send packet 1649
+packet 1649 is lost
+send packet 1649
+received ack 1649
+send packet 1650
+cwnd : 2
+send packet 1651
+cwnd : 2
+received ack 1650
+received ack 1651
+send packet 1652
+cwnd : 4
+send packet 1653
+cwnd : 4
+send packet 1654
+cwnd : 4
+packet 1655 is lost
+cwnd : 4
+received ack 1652
+send packet 1656
+cwnd : 5
+send packet 1657
+cwnd : 5
+received ack 1653
+packet 1658 is lost
+cwnd : 6
+send packet 1659
+cwnd : 6
+received ack 1654
+send packet 1660
+cwnd : 7
+send packet 1661
+cwnd : 7
+received ack 1659
+send packet 1662
+cwnd : 8
+received ack 1660
+received ack 1661
+send packet 1663
+cwnd : 9
+received ack 1662
+send packet 1664
+cwnd : 10
+packet 1665 is lost
+cwnd : 11
+received ack 1664
+send packet 1666
+cwnd : 12
+received ack 1666
+send packet 1667
+cwnd : 13
+received ack 1667
+packet 1665 is lost
+packet 1667 is lost
+send packet 1655
+packet 1656 is lost
+send packet 1657
+send packet 1658
+send packet 1663
+received ack 1658
+send packet 1665
+packet 1655 is lost
+send packet 1656
+send packet 1657
+send packet 1663
+received ack 1665
+received ack 1657
+received ack 1663
+send packet 1656
+send packet 1655
+received ack 1655
+packet 1656 is lost
+packet 1656 is lost
+send packet 1656
+packet 1656 is lost
+packet 1656 is lost
+packet 1656 is lost
+packet 1656 is lost
+send packet 1656
+received ack 1656
+send packet 1668
+cwnd : 2
+send packet 1669
+cwnd : 2
+received ack 1668
+send packet 1670
+cwnd : 3
+packet 1671 is lost
+cwnd : 3
+received ack 1669
+send packet 1672
+cwnd : 4
+send packet 1673
+cwnd : 4
+received ack 1670
+send packet 1674
+cwnd : 5
+send packet 1675
+cwnd : 5
+received ack 1672
+send packet 1676
+cwnd : 6
+received ack 1673
+send packet 1677
+cwnd : 7
+received ack 1675
+packet 1678 is lost
+received ack 1676
+cwnd : 8
+packet 1679 is lost
+received ack 1677
+cwnd : 9
+send packet 1680
+cwnd : 10
+received ack 1680
+send packet 1681
+cwnd : 11
+send packet 1671
+packet 1674 is lost
+received ack 1671
+send packet 1678
+send packet 1679
+packet 1681 is lost
+received ack 1679
+send packet 1674
+send packet 1678
+packet 1681 is lost
+received ack 1674
+received ack 1678
+send packet 1682
+cwnd : 3
+send packet 1683
+cwnd : 3
+received ack 1683
+received ack 1684
+send packet 1684
+cwnd : 4
+send packet 1685
+cwnd : 5
+received ack 1685
+send packet 1686
+cwnd : 6
+received ack 1686
+packet 1687 is lost
+cwnd : 7
+packet 1681 is lost
+packet 1682 is lost
+send packet 1687
+send packet 1681
+send packet 1682
+packet 1687 is lost
+send packet 1681
+send packet 1682
+received ack 1681
+packet 1687 is lost
+send packet 1682
+received ack 1682
+send packet 1688
+cwnd : 2
+received ack 1688
+send packet 1689
+cwnd : 3
+received ack 1689
+send packet 1690
+cwnd : 4
+packet 1687 is lost
+packet 1690 is lost
+send packet 1687
+received ack 1687
+packet 1691 is lost
+cwnd : 2
+packet 1690 is lost
+send packet 1691
+received ack 1691
+packet 1690 is lost
+packet 1690 is lost
+send packet 1690
+send packet 1690
+send packet 1690
+received ack 1690
+packet 1692 is lost
+cwnd : 2
+send packet 1693
+cwnd : 2
+received ack 1693
+send packet 1694
+cwnd : 3
+received ack 1694
+send packet 1695
+cwnd : 4
+received ack 1695
+send packet 1696
+cwnd : 5
+send packet 1692
+received ack 1692
+send packet 1697
+cwnd : 4
+send packet 1698
+cwnd : 4
+send packet 1699
+cwnd : 4
+received ack 1697
+received ack 1698
+received ack 1699
+send packet 1700
+cwnd : 7
+packet 1701 is lost
+cwnd : 7
+send packet 1702
+cwnd : 7
+send packet 1700
+packet 1701 is lost
+send packet 1702
+send packet 1696
+received ack 1696
+send packet 1700
+send packet 1701
+send packet 1702
+received ack 1700
+received ack 1701
+packet 1703 is lost
+cwnd : 3
+received ack 1702
+send packet 1704
+cwnd : 3
+received ack 1704
+send packet 1705
+cwnd : 4
+packet 1706 is lost
+cwnd : 4
+send packet 1707
+cwnd : 5
+send packet 1703
+send packet 1707
+packet 1705 is lost
+send packet 1706
+received ack 1707
+received ack 1706
+send packet 1703
+send packet 1705
+received ack 1705
+send packet 1703
+send packet 1703
+send packet 1703
+received ack 1703
+packet 1708 is lost
+cwnd : 2
+packet 1709 is lost
+cwnd : 2
+send packet 1708
+send packet 1709
+received ack 1708
+received ack 1709
+send packet 1710
+cwnd : 2
+received ack 1710
+send packet 1711
+cwnd : 3
+send packet 1712
+cwnd : 3
+packet 1713 is lost
+cwnd : 4
+received ack 1711
+send packet 1714
+cwnd : 4
+send packet 1715
+cwnd : 5
+send packet 1716
+cwnd : 5
+received ack 1716
+send packet 1717
+cwnd : 6
+send packet 1712
+send packet 1713
+send packet 1714
+received ack 1713
+send packet 1715
+received ack 1714
+received ack 1715
+send packet 1717
+received ack 1717
+packet 1712 is lost
+send packet 1712
+send packet 1712
+received ack 1712
+send packet 1718
+cwnd : 2
+send packet 1719
+cwnd : 2
+received ack 1718
+packet 1720 is lost
+cwnd : 3
+send packet 1721
+cwnd : 3
+received ack 1721
+packet 1722 is lost
+cwnd : 4
+send packet 1722
+send packet 1719
+send packet 1720
+received ack 1722
+send packet 1719
+send packet 1720
+send packet 1719
+send packet 1720
+received ack 1719
+received ack 1720
+send packet 1723
+cwnd : 3
+send packet 1724
+cwnd : 3
+send packet 1725
+cwnd : 3
+received ack 1723
+received ack 1724
+send packet 1726
+cwnd : 4
+send packet 1727
+cwnd : 4
+received ack 1726
+send packet 1728
+cwnd : 5
+send packet 1729
+cwnd : 5
+received ack 1728
+send packet 1730
+cwnd : 6
+packet 1731 is lost
+cwnd : 7
+packet 1725 is lost
+send packet 1727
+received ack 1727
+send packet 1729
+packet 1730 is lost
+send packet 1731
+received ack 1731
+send packet 1725
+received ack 1725
+packet 1729 is lost
+send packet 1730
+packet 1729 is lost
+packet 1730 is lost
+packet 1729 is lost
+send packet 1730
+received ack 1730
+send packet 1729
+received ack 1729
+send packet 1732
+cwnd : 2
+send packet 1733
+cwnd : 2
+received ack 1732
+received ack 1733
+packet 1734 is lost
+cwnd : 3
+packet 1735 is lost
+cwnd : 3
+packet 1736 is lost
+cwnd : 4
+packet 1737 is lost
+cwnd : 4
+send packet 1734
+send packet 1735
+send packet 1736
+send packet 1737
+received ack 1734
+received ack 1736
+received ack 1737
+send packet 1738
+cwnd : 4
+received ack 1738
+send packet 1739
+cwnd : 5
+received ack 1739
+send packet 1740
+cwnd : 6
+received ack 1740
+send packet 1741
+cwnd : 7
+received ack 1741
+packet 1742 is lost
+cwnd : 8
+send packet 1735
+send packet 1742
+received ack 1742
+send packet 1735
+send packet 1735
+received ack 1735
+send packet 1743
+cwnd : 2
+send packet 1744
+cwnd : 2
+received ack 1743
+send packet 1745
+received ack 1744
+cwnd : 3
+send packet 1746
+cwnd : 3
+received ack 1745
+send packet 1747
+cwnd : 4
+send packet 1748
+cwnd : 4
+received ack 1747
+send packet 1749
+cwnd : 5
+send packet 1750
+cwnd : 5
+received ack 1748
+send packet 1751
+cwnd : 6
+packet 1752 is lost
+cwnd : 7
+received ack 1750
+packet 1753 is lost
+received ack 1751
+cwnd : 8
+packet 1754 is lost
+cwnd : 9
+send packet 1749
+send packet 1746
+received ack 1746
+send packet 1752
+packet 1753 is lost
+send packet 1754
+received ack 1752
+received ack 1754
+packet 1749 is lost
+send packet 1753
+packet 1749 is lost
+send packet 1753
+send packet 1749
+received ack 1749
+packet 1753 is lost
+send packet 1753
+received ack 1753
+send packet 1755
+cwnd : 2
+send packet 1756
+cwnd : 2
+received ack 1755
+packet 1757 is lost
+cwnd : 3
+packet 1758 is lost
+cwnd : 3
+send packet 1756
+received ack 1756
+packet 1758 is lost
+send packet 1757
+received ack 1757
+send packet 1759
+cwnd : 2
+send packet 1758
+send packet 1759
+send packet 1758
+send packet 1759
+received ack 1759
+send packet 1758
+received ack 1758
+packet 1760 is lost
+cwnd : 2
+send packet 1761
+cwnd : 2
+received ack 1761
+send packet 1762
+cwnd : 3
+packet 1760 is lost
+send packet 1762
+received ack 1762
+packet 1760 is lost
+send packet 1760
+received ack 1760
+send packet 1763
+cwnd : 2
+packet 1764 is lost
+cwnd : 2
+received ack 1763
+send packet 1765
+cwnd : 3
+send packet 1766
+cwnd : 3
+received ack 1766
+packet 1767 is lost
+cwnd : 4
+packet 1764 is lost
+send packet 1765
+received ack 1765
+send packet 1767
+received ack 1767
+send packet 1764
+received ack 1764
+send packet 1768
+cwnd : 2
+send packet 1769
+cwnd : 2
+received ack 1768
+received ack 1769
+send packet 1770
+cwnd : 3
+send packet 1771
+cwnd : 3
+packet 1772 is lost
+cwnd : 4
+received ack 1771
+send packet 1770
+received ack 1770
+send packet 1772
+received ack 1772
+received ack 0

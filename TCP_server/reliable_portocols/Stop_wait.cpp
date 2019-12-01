@@ -15,7 +15,7 @@ void Stop_wait::recv_file(int sock_fd,struct addrinfo* address,string fileName) 
     do{
         memset(&packet,0,sizeof(data_packet));
         rv = rcvUDP(sock_fd,&packet,address,true,4, false);
-        if(packet.seqno = seq && rv){
+        if(packet.seqno == seq && rv){
             string data = packet.data;
             fwrite(data.c_str(),sizeof(char),data.size(),fp);
             ack_packet ack;
@@ -44,7 +44,7 @@ void Stop_wait::send_file(int sock_fd,struct addrinfo* address,string fileName) 
         do{
             sendUDP(sock_fd,address,(void*)&packet,sizeof(data_packet));
             ack_packet ack_pk;
-            rv = rcvUDP(sock_fd,&ack_pk,address,true,4,true);
+            rv = rcvUDP(sock_fd,&ack_pk,address,true,0,true);
         }while(!rv);
 
         if(seq == packet.seqno) seq++;

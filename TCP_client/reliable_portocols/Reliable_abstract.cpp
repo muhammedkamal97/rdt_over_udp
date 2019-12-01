@@ -4,13 +4,14 @@
 
 #include "Reliable_abstract.h"
 
-Reliable_abstract::Reliable_abstract(float propability) {
+Reliable_abstract::Reliable_abstract(float propability,int seed) {
     this->propability = propability;
+    srand(seed);
 }
 
 
 bool Reliable_abstract::propability_loss() {
-    srand(time(0));
+
     int random_num = (rand()%100)+1;
     if(random_num <= this->propability*100){
         return true;

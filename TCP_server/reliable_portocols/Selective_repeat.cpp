@@ -67,8 +67,10 @@ void* data_transimmiter(void *arg){
                                                    sr->packets[i+(sr->base)]->pk->len);
                 sr->packets[i+sr->base]->t = clock();
                 sr->transmitted.insert(i+(sr->base));
+                printf("cwnd : %d\n", sr->cwnd);
             }
         }
+
         sr->mtx.unlock();
     }
 
@@ -92,8 +94,8 @@ void* ack_receiver(void* arg){
                 sr->base++;
             }
             sr->update_ack(pk.rcv_window);
-            printf("rcv_window : %d\n", pk.rcv_window);
-            printf("cwnd : %d\n", sr->cwnd);
+            //printf("rcv_window : %d\n", pk.rcv_window);
+            //printf("cwnd : %d\n", sr->cwnd);
         }
         sr->mtx.unlock();
     }
@@ -117,6 +119,7 @@ void Selective_repeat::update_ack(int rcv_window) {
 void Selective_repeat::update_timeout() {
     threashold = max(1,cwnd/2);
     cwnd = max(1,cwnd/2);
+    slow_start = true;
 }
 
 void* time_monitor(void* arg){
@@ -125,12 +128,14 @@ void* time_monitor(void* arg){
         for(auto ele : sr->transmitted){
             sr->mtx.lock();
             if(!sr->packets[ele]->acked){
-                int time = (clock() - sr->packets[ele]->t) / CLOCKS_PER_SEC;
-                if(time > 5){
+                int time = (clock() - sr->packets[ele]->t);
+                if(time > 2000){
                     ((Reliable_abstract* )sr)->sendUDP(sr->sock_fd,sr->addr,sr->packets[ele]->pk,
                                                        sr->packets[ele]->pk->len);
                     sr->packets[ele]->t = clock();
                     sr->update_timeout();
+                    //printf("timeout : %d\n", sr->packets[ele]->pk->seqno);
+                    //printf("cwnd : %d\n", sr->cwnd);
                 }
             }
             sr->mtx.unlock();
