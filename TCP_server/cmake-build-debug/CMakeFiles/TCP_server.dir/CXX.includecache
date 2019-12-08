@@ -6,6 +6,46 @@
 
 #IncludeRegexTransform: 
 
+/home/muhammed/CLionProjects/TCP_server/Server.cpp
+Server.h
+/home/muhammed/CLionProjects/TCP_server/Server.h
+
+/home/muhammed/CLionProjects/TCP_server/Server.h
+string
+-
+cstring
+-
+fstream
+-
+iostream
+-
+netinet/in.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+arpa/inet.h
+-
+netdb.h
+-
+unistd.h
+-
+stdlib.h
+-
+reliable_portocols/Reliable_abstract.h
+/home/muhammed/CLionProjects/TCP_server/reliable_portocols/Reliable_abstract.h
+
+/home/muhammed/CLionProjects/TCP_server/main.cpp
+iostream
+-
+Server.h
+/home/muhammed/CLionProjects/TCP_server/Server.h
+reliable_portocols/Stop_wait.h
+/home/muhammed/CLionProjects/TCP_server/reliable_portocols/Stop_wait.h
+reliable_portocols/Selective_repeat.h
+/home/muhammed/CLionProjects/TCP_server/reliable_portocols/Selective_repeat.h
+
 /home/muhammed/CLionProjects/TCP_server/packet_types.h
 cstdint
 -
@@ -40,10 +80,6 @@ cstdlib
 ../packet_types.h
 /home/muhammed/CLionProjects/TCP_server/packet_types.h
 
-/home/muhammed/CLionProjects/TCP_server/reliable_portocols/Selective_repeat.cpp
-Selective_repeat.h
-/home/muhammed/CLionProjects/TCP_server/reliable_portocols/Selective_repeat.h
-
 /home/muhammed/CLionProjects/TCP_server/reliable_portocols/Selective_repeat.h
 vector
 -
@@ -55,6 +91,10 @@ pthread.h
 -
 set
 -
+Reliable_abstract.h
+/home/muhammed/CLionProjects/TCP_server/reliable_portocols/Reliable_abstract.h
+
+/home/muhammed/CLionProjects/TCP_server/reliable_portocols/Stop_wait.h
 Reliable_abstract.h
 /home/muhammed/CLionProjects/TCP_server/reliable_portocols/Reliable_abstract.h
 

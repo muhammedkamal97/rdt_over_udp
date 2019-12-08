@@ -19,7 +19,10 @@ int main() {
     Server* sr = new Server();
     sr->bind(port);
     freopen ("output.txt","w",stdout);
-    Reliable_abstract* rdt = new Selective_repeat(prop,seed);
-    sr->start(rdt);
+    while(1){
+        Reliable_abstract* rdt = new Selective_repeat(prop,seed);
+        sr->start(rdt);
+    }
+
     return 0;
 }

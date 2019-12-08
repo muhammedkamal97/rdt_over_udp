@@ -14,32 +14,16 @@
     <list default="true" id="06b59558-7e4b-46e5-9622-3f99cd8dae30" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCP_client.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCP_client.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCP_client.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCP_client.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCP_client.dir/reliable_portocols/Reliable_abstract.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCP_client.dir/reliable_portocols/Reliable_abstract.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCP_client.dir/reliable_portocols/Selective_repeat.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCP_client.dir/reliable_portocols/Selective_repeat.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCP_client.dir/reliable_portocols/Stop_wait.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TCP_client.dir/reliable_portocols/Stop_wait.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/TCP_client" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/TCP_client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/test_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/test_file.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reliable_portocols/Reliable_abstract.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/reliable_portocols/Reliable_abstract.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reliable_portocols/Reliable_abstract.h" beforeDir="false" afterPath="$PROJECT_DIR$/reliable_portocols/Reliable_abstract.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reliable_portocols/Selective_repeat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/reliable_portocols/Selective_repeat.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reliable_portocols/Selective_repeat.h" beforeDir="false" afterPath="$PROJECT_DIR$/reliable_portocols/Selective_repeat.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reliable_portocols/Stop_wait.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/reliable_portocols/Stop_wait.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reliable_portocols/Stop_wait.h" beforeDir="false" afterPath="$PROJECT_DIR$/reliable_portocols/Stop_wait.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP_server/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/CMakeFiles/TCP_server.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/CMakeFiles/TCP_server.dir/main.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/CMakeFiles/TCP_server.dir/reliable_portocols/Reliable_abstract.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/CMakeFiles/TCP_server.dir/reliable_portocols/Reliable_abstract.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/CMakeFiles/TCP_server.dir/reliable_portocols/Selective_repeat.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/CMakeFiles/TCP_server.dir/reliable_portocols/Selective_repeat.cpp.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/CMakeFiles/TCP_server.dir/reliable_portocols/Stop_wait.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/CMakeFiles/TCP_server.dir/reliable_portocols/Stop_wait.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP_server/Server.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/Server.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/CMakeFiles/TCP_server.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/CMakeFiles/TCP_server.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/CMakeFiles/TCP_server.dir/Server.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/CMakeFiles/TCP_server.dir/Server.cpp.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/TCP_server" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/TCP_server" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/cmake-build-debug/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TCP_server/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP_server/reliable_portocols/Reliable_abstract.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/reliable_portocols/Reliable_abstract.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP_server/reliable_portocols/Reliable_abstract.h" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/reliable_portocols/Reliable_abstract.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP_server/reliable_portocols/Selective_repeat.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/reliable_portocols/Selective_repeat.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP_server/reliable_portocols/Selective_repeat.h" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/reliable_portocols/Selective_repeat.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP_server/reliable_portocols/Stop_wait.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/reliable_portocols/Stop_wait.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../TCP_server/reliable_portocols/Stop_wait.h" beforeDir="false" afterPath="$PROJECT_DIR$/../TCP_server/reliable_portocols/Stop_wait.h" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -98,8 +82,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reliable_portocols/Reliable_abstract.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="60">
+              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -107,8 +91,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reliable_portocols/Selective_repeat.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="124" column="25" lean-forward="true" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
+            <state relative-caret-position="271">
+              <caret line="160" column="15" selection-start-line="160" selection-start-column="15" selection-end-line="160" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Client.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -116,41 +109,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/reliable_portocols/Reliable_abstract.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+            <state relative-caret-position="225">
+              <caret line="28" column="85" selection-start-line="28" selection-start-column="85" selection-end-line="28" selection-end-column="85" />
               <folding>
                 <element signature="e#122#139#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="53" selection-start-line="11" selection-start-column="53" selection-end-line="11" selection-end-column="53" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reliable_portocols/Stop_wait.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="16" column="50" selection-start-line="16" selection-start-column="50" selection-end-line="16" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reliable_portocols/Stop_wait.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="81" selection-start-line="12" selection-start-column="81" selection-end-line="12" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -270,18 +233,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57631000" />
+    <option name="totallyTimeSpent" value="57790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="43" y="25" width="1323" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28034455" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28974158" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49960846" weight="0.32626426" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49960846" visible="true" weight="0.32626426" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -372,15 +335,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Client.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="51" column="1" selection-start-line="51" selection-start-column="1" selection-end-line="51" selection-end-column="1" />
+        <state relative-caret-position="261">
+          <caret line="38" column="36" lean-forward="true" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/reliable_portocols/Reliable_abstract.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        <state relative-caret-position="225">
+          <caret line="28" column="85" selection-start-line="28" selection-start-column="85" selection-end-line="28" selection-end-column="85" />
           <folding>
             <element signature="e#122#139#0" expanded="true" />
           </folding>
@@ -406,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reliable_portocols/Reliable_abstract.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="60">
+          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -420,8 +383,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reliable_portocols/Selective_repeat.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="124" column="25" lean-forward="true" selection-start-line="124" selection-start-column="25" selection-end-line="124" selection-end-column="25" />
+        <state relative-caret-position="271">
+          <caret line="160" column="15" selection-start-line="160" selection-start-column="15" selection-end-line="160" selection-end-column="15" />
         </state>
       </provider>
     </entry>

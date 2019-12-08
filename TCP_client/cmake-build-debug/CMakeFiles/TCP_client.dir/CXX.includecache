@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/home/muhammed/CLionProjects/TCP_client/Client.cpp
+Client.h
+/home/muhammed/CLionProjects/TCP_client/Client.h
+
 /home/muhammed/CLionProjects/TCP_client/Client.h
 string
 -
@@ -48,6 +52,10 @@ chrono
 cstdint
 -
 
+/home/muhammed/CLionProjects/TCP_client/reliable_portocols/Reliable_abstract.cpp
+Reliable_abstract.h
+/home/muhammed/CLionProjects/TCP_client/reliable_portocols/Reliable_abstract.h
+
 /home/muhammed/CLionProjects/TCP_client/reliable_portocols/Reliable_abstract.h
 string
 -
@@ -78,6 +86,10 @@ cstdlib
 ../packet_types.h
 /home/muhammed/CLionProjects/TCP_client/packet_types.h
 
+/home/muhammed/CLionProjects/TCP_client/reliable_portocols/Selective_repeat.cpp
+Selective_repeat.h
+/home/muhammed/CLionProjects/TCP_client/reliable_portocols/Selective_repeat.h
+
 /home/muhammed/CLionProjects/TCP_client/reliable_portocols/Selective_repeat.h
 vector
 -
@@ -91,6 +103,10 @@ set
 -
 Reliable_abstract.h
 /home/muhammed/CLionProjects/TCP_client/reliable_portocols/Reliable_abstract.h
+
+/home/muhammed/CLionProjects/TCP_client/reliable_portocols/Stop_wait.cpp
+Stop_wait.h
+/home/muhammed/CLionProjects/TCP_client/reliable_portocols/Stop_wait.h
 
 /home/muhammed/CLionProjects/TCP_client/reliable_portocols/Stop_wait.h
 Reliable_abstract.h
