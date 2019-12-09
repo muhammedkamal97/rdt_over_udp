@@ -24,8 +24,9 @@ class Server {
 public:
     void bind(string port);
     void start(Reliable_abstract* rdt);
+    string request_handler(struct sockaddr_in* client,int port);
+    void send_new_port(int port);
 
-private:
     int sock_fd;
     struct addrinfo* server;
     struct addrinfo client;

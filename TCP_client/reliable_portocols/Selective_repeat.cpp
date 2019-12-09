@@ -116,9 +116,17 @@ void Selective_repeat::recv_file(int sock_fd, struct addrinfo *address, string f
     fp = fopen(fileName.c_str(),"wb");
     data_packet *pk;
     this->addr = address;
+    bool first_packet = true;
     while(true){
         pk = new data_packet;
         memset(pk,0,sizeof(data_packet));
+        if(first_packet){
+            bool rv = rcvUDP(sock_fd,pk,addr, true,1, false);
+            if(!rv){
+                continue;
+            }
+            first_packet = false;
+        }
         bool rv = rcvUDP(sock_fd,pk,addr, true,20, false);
         printf("base: %d\n",base);
         if(!rv){

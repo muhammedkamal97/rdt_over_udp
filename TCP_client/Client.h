@@ -25,9 +25,9 @@ class Client {
 public:
     Client(string arg_file);
     void connect();
-    void receive_file(Reliable_abstract *rdt);
+    string receive_file(Reliable_abstract *rdt);
 
-private:
+
     string server_ip;
     string server_port;
     string file_name;

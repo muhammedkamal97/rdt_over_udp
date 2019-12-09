@@ -529,7 +529,7 @@ by\ Delta\ alone\),
           
           StyleBox[\(fraction\ of\ delta\ transcription\ that\ is\ regulated\ \
 combinatorially\ by\ Her1/Her7\ and\ Delta\),
-            StyleBox[A   FontWeight->"Plain"], 
+            FontWeight->"Plain"], 
           StyleBox["  ",
             FontWeight->"Plain"], "*)"}], 
         StyleBox["   ",
@@ -566,7 +566,7 @@ combinatorially\ by\ Her1/Her7\ and\ Delta\),
           StyleBox[" ",
             FontWeight->"Plain"], "*)"}], 
         StyleBox["\[IndentingNewLine]",
-          FontWBox[Aeight->"Plain"], 
+          FontWeight->"Plain"], 
         "\[IndentingNewLine]", \(fh1[xh1_, xh7_, yd_] := 
             kh1\ *\ fr[xh1/critph, \ xh7/critph, yd/critpd];\), 
         StyleBox["\[IndentingNewLine]",
@@ -577,7 +577,7 @@ combinatorially\ by\ Her1/Her7\ and\ Delta\),
           
           FontWeight->"Bold"], \(fd[xh1_, xh7_, yd_] := 
             kd\ *\ fs[xh1/critph, \ xh7/critph, yd/critpd];\), 
-        StylBox[AeBox["\[IndentingNewLine]",
+        StyleBox["\[IndentingNewLine]",
           FontWeight->"Plain"], 
         StyleBox[" ",
           FontWeight->"Plain"], 
@@ -590,8 +590,7 @@ combinatorially\ by\ Her1/Her7\ and\ Delta\),
           StyleBox[\(absolute\ rates\ of\ transcription\ initiation, \ 
             in\ transcripts\ per\ minute\ per\ cell, \ for\ her1, \ 
             her7\ and\ delta\ as\ functions\ of\ numbers\ of\ protein\ \
-molecules\ per\ cell\)gNewLine]",
-A,
+molecules\ per\ cell\),
             FontWeight->"Plain"], "*)"}], 
         StyleBox["\[IndentingNewLine]",
           FontWeight->"Plain"], 
@@ -603,8 +602,7 @@ A,
         StyleBox[\( (*\ \ If\ {x, 
                   y}[\([i]\)]\ is\ the\ value\ of\ a\ variable\ in\ cell\ #  
               i, \ \(nbrs[{x, 
-                    y}]\)[\([i]\)]\ is\ its\ val]",
-Aue\ in\ the\ neighbour \
+                    y}]\)[\([i]\)]\ is\ its\ value\ in\ the\ neighbour \
 \((s)\)\ of\ cell\ #  i\ *) \),
           FontWeight->"Plain"], 
         StyleBox["\[IndentingNewLine]",
@@ -625,7 +623,7 @@ Cell["SETTINGS FOR SPECIFIC CASE, OVERRIDING DEFAULTS", "Input",
 
 Cell[BoxData[
     \(\(\( (*\ \ SPECIAL\ \(CASES : \ 
-          SET\ PARAMETERS\ HERE\ of\ delta\ mATO\ OVERRIDE\ DEFAULTS\), \ 
+          SET\ PARAMETERS\ HERE\ TO\ OVERRIDE\ DEFAULTS\), \ 
       E . G . \[IndentingNewLine]INDEPENDENT\ CELLS\ \((no\ Notch\ \
 communication)\)\ \ \  - \ SET\ rd = \(rdh = 0\); \[IndentingNewLine]\t
       HER1\ AND\ HER7\ IDENTICAL\ \((EQUIVALENT\ TO\ DIMERIC\ REGULATION\ BY\ \
@@ -633,7 +631,7 @@ HER1\ ALONE)\)\  - \ SET\ delaymh1 = delaymh7, \
       delayph1 = 
         delayph7, \ \(\(etc\)\(.\)\)\ \ \ \ *) \)\(\[IndentingNewLine]\)\( \
 (*\ Default\ settings\ except\ as\ follows\ and\ in\ the\ list\ of\ ' 
-        variants'\ of\ the\ outerma\ mAost\ Do\ loop\ just\ below\ *) \)\(\
+        variants'\ of\ the\ outermost\ Do\ loop\ just\ below\ *) \)\(\
 \[IndentingNewLine]\)\(r0 = 0; \ rd = 0; \ rh = 0;\[IndentingNewLine]
     s0 = 0; sd = 0; sh = 1;\[IndentingNewLine]
     \(tfinal = 1000;\)\[IndentingNewLine]
@@ -653,7 +651,7 @@ Cell[TextData[{
   FontFamily->"Courier",
   FontSize->16],
 
-C", \(delaymdAell[BoxData[
+Cell[BoxData[
     \(\(ph1 = \(ph7 = \(mh1 = \(mh7 = \(pd = \(md = 
                   Table[{0, 0}, \ {t, 0, tfinal, 
                       eps}]\)\)\)\)\);\)\)], "Input"]
@@ -671,7 +669,7 @@ Cell[BoxData[{
     \(\(baselinedelaypd = 20*{1, 1};\)\), "\n", 
     \(\(\(variants = {1, \ 1.5, 2, 2.5};\)\(\[IndentingNewLine]\)
     \)\), "\[IndentingNewLine]", 
-    \(<< GraphicaymdAs`MultipleListPlot`\), "\[IndentingNewLine]", 
+    \(<< Graphics`MultipleListPlot`\), "\[IndentingNewLine]", 
     \(\(\(Do[\[IndentingNewLine]\((\[IndentingNewLine]delaypd = 
           baselinedelaypd*variants[\([nv]\)]; \[IndentingNewLine]ndelaymh1 = 
           IntegerPart[delaymh1/eps]; \n\ \ \ \ \ ndelayph1 = 
@@ -687,7 +685,7 @@ Cell[BoxData[{
               ndelayph1[\([i]\)]; \[IndentingNewLine]nph7 = 
               ndelayph7[\([i]\)]; \[IndentingNewLine]npd = 
               ndelaypd[\([i]\)]; \[IndentingNewLine]nmh1 = 
-              ndelaymh1[\([i]\)]; \[Inde  "   ", "\[!ntingNewLine]nmh7 = 
+              ndelaymh1[\([i]\)]; \[IndentingNewLine]nmh7 = 
               ndelaymh7[\([i]\)]; \[IndentingNewLine]nmd = 
               ndelaymd[\([i]\)]; \[IndentingNewLine]ph1[\([n, i]\)] = \ 
               ph1[\([n - 1, 
@@ -697,7 +695,7 @@ Cell[BoxData[{
                         ph1[\([n - 1, i]\)])\); \[IndentingNewLine]ph7[\([n, 
                   i]\)] = \ 
               ph7[\([n - 1, 
-  "\[!                   i]\)]\  + \[IndentingNewLine]eps\ \((If[n > nph7, 
+                    i]\)]\  + \[IndentingNewLine]eps\ \((If[n > nph7, 
                         ah7[\([i]\)]*mh7[\([n - nph7, i]\)], 0]\  - \ 
                       bh7[\([i]\)]*
                         ph7[\([n - 1, i]\)])\); \[IndentingNewLine]pd[\([n, 
@@ -706,7 +704,7 @@ Cell[BoxData[{
                     i]\)]\  + \[IndentingNewLine]eps\ \((If[n > npd, 
                         ad[\([i]\)]*md[\([n - npd, i]\)], 0]\  - \ 
                       bd[\([i]\)]*
-                 "\[!        pd[\([n - 1, i]\)])\); \[IndentingNewLine]mh1[\([n, 
+                        pd[\([n - 1, i]\)])\); \[IndentingNewLine]mh1[\([n, 
                   i]\)] = 
               mh1[\([n - 1, 
                     i]\)]\  + \[IndentingNewLine]eps\ \((If[n > nmh1, 
@@ -62283,7 +62281,7 @@ exch } bind def
 [.4 -0.0125 -9 -9 ]
 [.4 -0.0125 9 0 ]
 [.6 -0.0125 -9 -9 ]
-[.6 -oooool0oooooA0.0125 9 0 ]
+[.6 -0.0125 9 0 ]
 [.8 -0.0125 -9 -9 ]
 [.8 -0.0125 9 0 ]
 [1 -0.0125 -12 -9 ]
@@ -62450,7 +62448,7 @@ s
 .00375 .1 L
 s
 0 .11333 m
-.003ooooA75 .11333 L
+.00375 .11333 L
 s
 0 .12 m
 .00375 .12 L
@@ -62527,7 +62525,7 @@ currentpoint translate
 135.062 25.500 moveto
 %%IncludeResource: font Courier
 %%IncludeFont: Courier
-/Courier findfont 10.000 scaooooAlefont
+/Courier findfont 10.000 scalefont
 [1 0 0 -1 0 0 ] makefont setfont
 0.000 0.000 0.000 setrgbcolor
 0.000 0.000 rmoveto
@@ -76666,7 +76664,7 @@ Mistroke
 Mistroke
 .8943 .00594 L
 .8946 .00567 L
-.8949 .00542 L
+.8.2421 .15933A949 .00542 L
 .8952 .0052 L
 .8955 .00499 L
 .8958 .00481 L
@@ -78637,7 +78635,8 @@ Mistroke
 .1311 .0111 L
 .1314 .01149 L
 .1317 .01191 L
-.132 .01238 L
+.132 .ooo00?o
+003oA01238 L
 .1323 .0129 L
 .1326 .01348 L
 .1329 .01411 L
@@ -78671,7 +78670,7 @@ Mistroke
 .141 .06516 L
 .1413 .06774 L
 .1416 .07025 L
-.1419 .07267 L
+.1419 .0003oA7267 L
 .1422 .07498 L
 .1425 .07717 L
 .1428 .07922 L
@@ -78739,7 +78738,7 @@ Mistroke
 .1611 .01718 L
 .1614 .01638 L
 .1617 .01561 L
-.162 .01488 L
+.162 .01003oA488 L
 .1623 .01418 L
 .1626 .01352 L
 .1629 .01289 L
@@ -91129,7 +91128,8 @@ Mistroke
 .5703 .01447 L
 .5706 .01565 L
 .5709 .01693 L
-.5712 .01834 L
+.5712 .0101254 L
+.48 A834 L
 .5715 .01988 L
 .5718 .02155 L
 .5721 .02336 L
@@ -91163,7 +91163,7 @@ Mistroke
 .5802 .11693 L
 .5805 .12053 L
 .5808 .12397 L
-.5811 .12724 L
+.5811 .1.48 A2724 L
 .5814 .13032 L
 .5817 .1332 L
 .582 .13587 L
@@ -91265,7 +91265,7 @@ Mistroke
 .6102 .0065 L
 .6105 .00655 L
 .6108 .00662 L
-.6111 .00674 L
+.6111 .00674 L.48 A
 .6114 .0069 L
 .6117 .0071 L
 .612 .00735 L
@@ -99285,7 +99285,8 @@ Mistroke
 .63 .00147 L
 Mistroke
 .6303 .00163 L
-.6306 .00182 L
+.6306 .000488 L
+.389A0182 L
 .6309 .00204 L
 .6312 .00231 L
 .6315 .00262 L
@@ -99319,7 +99320,7 @@ Mistroke
 .6399 .05049 L
 .6402 .05322 L
 .6405 .05586 L
-.6408 .05837 L
+.640.389A8 .05837 L
 .6411 .06073 L
 .6414 .06291 L
 .6417 .06489 L
@@ -99388,7 +99389,7 @@ Mistroke
 Mistroke
 .6603 .00401 L
 .6606 .00375 L
-.6609 .0035 L
+.6.389A609 .0035 L
 .6612 .00327 L
 .6615 .00305 L
 .6618 .00285 L
@@ -177436,7 +177437,7 @@ oooooooooooo00?ooooo00?o003oooooooooool0JOooool005cooooo00?o0000ooooooooool00_oo
 ool01?l0003oooooooooool00002ooooo`04o`000?ooooooooooo`0000Kooooo00<00000oooooooo
 ool05?ooool00`000?ooooooooooo`06ooooo`03ool00?l00?oooooo00Cooooo00?oo`00o`00oooo
 ool00oooool00ooo003oooooo`00o`05ooooo`06ool00?oooooo003ooooooooo003o003o1_ooool0
-0ooo003oooooo`00o`03ooooo`03o`00oooo003ooooo00Kooooo00?o003oooooooooool00_ooool0
+0ooo003oooooo`00o`03ooooo`03o`00oooo003ooooo00Kooooo00CoooooAoooo00?o003oooooooooool00_ooool0
 0ol00?ooo`00ooooo`05ooooo`03o`00oooo003ooooo00;ooooo0_l00?l6ooooo`03o`00oooooooo
 oooo00?ooooo00?oo`00o`00ooooool01Oooool00ooo003o003oooooo`02ooooo`03ool00?oooooo
 003o00Gooooo00?oo`00ooooool00?l00oooool00ol00?ooooooooooo`04ooooo`03ool00?oooooo

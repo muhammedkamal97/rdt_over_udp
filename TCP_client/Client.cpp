@@ -40,14 +40,38 @@ void Client::connect() {
     }
 }
 
-void Client::receive_file(Reliable_abstract *rdt) {
+string Client::receive_file(Reliable_abstract *rdt) {
     //create data packet
-    int st = sendto(this->sock_fd,this->file_name.c_str(),this->file_name.size(),
+    if(rdt == NULL){
+        int st = sendto(this->sock_fd,this->file_name.c_str(),this->file_name.size(),
             0,this->server->ai_addr,this->server->ai_addrlen);
-    if(st == -1){
-        printf("error in send to\n");
-        exit(-1);
+        if(st == -1){
+            printf("error in send to\n");
+            exit(-1);
+        }
+
+        int new_port;
+        struct sockaddr_in sr;
+        memset(&sr, 0, sizeof(struct sockaddr_in));
+        socklen_t l = sizeof(struct sockaddr_in);
+        recvfrom(sock_fd,&new_port, sizeof(int),0,this->server->ai_addr,&(this->server->ai_addrlen));
+        this->server_port = to_string(new_port);
+        close(sock_fd);
+        freeaddrinfo(this->server);
+        //this->connect();
+        //the receiver way of communication handle
+        return this->server_port;
+    }else{
+        int st = sendto(this->sock_fd,this->file_name.c_str(),this->file_name.size(),
+                        0,this->server->ai_addr,this->server->ai_addrlen);
+        if(st == -1){
+            printf("error in send to\n");
+            exit(-1);
+        }
+        rdt->file_name = file_name;
+        rdt->recv_file(sock_fd,this->server,file_name);
     }
-    //the receiver way of communication handle
-    rdt->recv_file(this->sock_fd,this->server,this->file_name);
+
+
+
 }

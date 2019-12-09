@@ -12,7 +12,13 @@ int main() {
     Reliable_abstract* rdt = new Selective_repeat(0.3,10);
     ((Selective_repeat*) rdt)->cwnd = 10000;
     auto start = high_resolution_clock::now();
-    cl->receive_file(rdt);
+    string str = cl->receive_file(NULL);
+    delete cl;
+    sleep(2);
+    Client* cl2 = new Client("test.txt");
+    cl2->server_port = str;
+    cl2->connect();
+    cl2->receive_file(rdt);
     auto stop = high_resolution_clock::now();
     auto duration = duration_cast<microseconds>(stop - start);
     std::cout << duration.count()*1000 <<endl;

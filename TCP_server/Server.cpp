@@ -33,25 +33,45 @@ void Server::bind(string port) {
 
 void Server::start(Reliable_abstract* rdt) {
 
-        struct sockaddr_in client;
-        memset(&client, 0, sizeof(client));
-        char buffer[1024];
-        memset(buffer, 0, sizeof(buffer));
-        size_t n;
-        socklen_t len = sizeof(struct sockaddr_in);
-        n = recvfrom(sock_fd, (char *) buffer, 1024, 0, (struct sockaddr *) &client, &len);
+    struct sockaddr_in client;
+    memset(&client, 0, sizeof(client));
+    char buffer[1024];
+    memset(buffer, 0, sizeof(buffer));
+    size_t n;
+    socklen_t len = sizeof(struct sockaddr_in);
+    n = recvfrom(sock_fd, (char *) buffer, 1024, 0, (struct sockaddr *) &client, &len);
 
-        string file_name = string(buffer, buffer + n);
-        printf("requested file name: %s\n", file_name.c_str());
+    string file_name = string(buffer, buffer + n);
+    printf("requested file name: %s\n", file_name.c_str());
 
-        struct addrinfo hints, *res;
+    struct addrinfo hints, *res;
 
-        this->client.ai_addr = ((struct sockaddr *) &client);
-        this->client.ai_addrlen = sizeof(this->client);
-        this->client.ai_family = AF_UNSPEC;
-        this->client.ai_socktype = SOCK_DGRAM;
-        this->client.ai_protocol = 0;
+    this->client.ai_addr = ((struct sockaddr *) &client);
+    this->client.ai_addrlen = sizeof(this->client);
+    this->client.ai_family = AF_UNSPEC;
+    this->client.ai_socktype = SOCK_DGRAM;
+    this->client.ai_protocol = 0;
 
-        rdt->send_file(sock_fd, &this->client, file_name);
+    rdt->send_file(sock_fd, &this->client, file_name);
+}
 
+string Server::request_handler(struct sockaddr_in* client,int port) {
+
+    memset(client, 0, sizeof(struct sockaddr_in));
+    char buffer[1024];
+    memset(buffer, 0, sizeof(buffer));
+    size_t n;
+    socklen_t len = sizeof(struct sockaddr_in);
+    n = recvfrom(sock_fd, (char *) buffer, 1024, 0, (struct sockaddr *) client, &len);
+    this->client.ai_addr = ((struct sockaddr *) &client);
+    this->client.ai_addrlen = sizeof(this->client);
+    string file_name = string(buffer, buffer + n);
+    printf("requested file name: %s\n", file_name.c_str());
+    sendto(this->sock_fd,&port,sizeof(int),MSG_CONFIRM,(struct sockaddr *) client,len);
+    return file_name;
+}
+
+void Server::send_new_port(int port) {
+    int k = port;
+    sendto(this->sock_fd,&k,sizeof(int),MSG_CONFIRM,this->client.ai_addr,this->client.ai_addrlen);
 }

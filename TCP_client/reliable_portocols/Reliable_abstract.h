@@ -30,6 +30,7 @@ public:
     virtual void send_file(int sock_fd,struct addrinfo* address,string fileName) = 0;
     void sendUDP(int sock_fd,struct addrinfo* address, void* buffer,int len);
     bool rcvUDP(int sock_fd,void *packet,struct addrinfo* address, bool block,int time_out,bool is_ack);
+    string file_name;
 
 private:
     float propability;
